@@ -2,33 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8aee95b-ed05-4acf-b442-dd199429a212" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hsk_pdf_crawling/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hsk_pdf_crawling/pdf_reading.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hsk_word_data/HSK1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hsk_word_data/HSK1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hsk_word_data/HSK2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hsk_word_data/HSK2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hsk_word_data/HSK3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hsk_word_data/HSK3.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hsk_word_data/HSK4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hsk_word_data/HSK4.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hsk_word_data/HSK5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hsk_word_data/HSK6_unfinished.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hsk_word_data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/(1)web_crawl_self/file_integration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/(1)web_crawl_self/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/(2)make_database/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/(2)make_database/letters_crawling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/(2)make_database/make_letters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/(2)make_database/make_words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/(2)make_database/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/total_hsk_words.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/make_database_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/csv_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_crawl_self/csv_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/dic_link.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/dic_link.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/dic_link2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/dic_link2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/dic_link3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/dic_link3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/dic_link4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/dic_link4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/file_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_crawl_self/file_integration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/hsk_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_crawl_self/hsk_words.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/hsk_words_link.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/hsk_words_link1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/hsk_words_link2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/hsk_words_link2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/hsk_words_link3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/hsk_words_link3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/hsk_words_link4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/hsk_words_link4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/hsk_words_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_crawl_self/hsk_words_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/dic_link.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/dic_link.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_crawl_self/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_crawl_self/csv_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/csv_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_crawl_self/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_crawl_self/divide_link.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/divide_link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_crawl_self/file_integration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_crawl_self/hanyu_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/hanyu_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_crawl_self/hsk_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/hsk_words.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_crawl_self/hsk_words_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/hsk_words_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_crawl_self/test2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_crawl_self/to_character_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/to_character_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_crawl_self/to_chracter_page_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/to_chracter_page_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +49,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab-python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -73,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.file_integration">
+  <component name="RunManager" selected="Python.hsk_words">
     <configuration name="file_integration" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chn_words_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pdf_reading" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="hsk_words" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chn_words_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hsk_pdf_crawling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/(1)web_crawl_self" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hsk_pdf_crawling/pdf_reading.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(1)web_crawl_self/hsk_words.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pdf_reading2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="make_database_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chn_words_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +121,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hsk_pdf_crawling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/function" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hsk_pdf_crawling/pdf_reading2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/function/make_database_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="make_letters" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chn_words_website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/make_database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_database/make_letters.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chn_words_website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/make_database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_database/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,9 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hsk_words" />
+        <item itemvalue="Python.make_database_function" />
+        <item itemvalue="Python.make_letters" />
+        <item itemvalue="Python.test1" />
         <item itemvalue="Python.file_integration" />
-        <item itemvalue="Python.pdf_reading" />
-        <item itemvalue="Python.pdf_reading2" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +204,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

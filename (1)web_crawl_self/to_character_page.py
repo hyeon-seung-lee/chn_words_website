@@ -1,6 +1,4 @@
 from selenium import webdriver
-import time
-from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import pandas as pd
 
