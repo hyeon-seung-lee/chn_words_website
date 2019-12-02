@@ -93,6 +93,6 @@ if __name__ == '__main__':
             for key, value in links_list.items():
                 chn_hsk_link[key]=value  # return 받은 딕셔너리를 리스트에 추가
             print(chn_hsk_link)
-            save_dict_csv(chn_hsk_link, 'hsk_words_link.csv')
+            save_dict_csv(chn_hsk_link, 'hsk_words_link1.csv')
     # 저장
-    save_dict_csv(chn_hsk_link, 'hsk_words_link.csv')
+    save_dict_csv(chn_hsk_link, 'hsk_words_link1.csv')

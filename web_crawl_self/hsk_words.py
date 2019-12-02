@@ -79,7 +79,7 @@ if __name__ == '__main__':
     # input_file = os.path.join('dic_link.csv')
     # input_file = os.path.join('dic_link2.csv')  # Pycharm 에러로 다시 시작
     # input_file = os.path.join('dic_link3.csv')  # 분할실행
-    input_file = os.path.join('dic_link4.csv')  # 세번째 실행중 에러
+    input_file = os.path.join('../csv/dic_link4.csv')  # 세번째 실행중 에러
     chn_words_link = my_csv_reader(input_file)  # input_file로부터 주소를 받아온다
 
     # chn_hsk_link = []
@@ -97,9 +97,9 @@ if __name__ == '__main__':
                 chn_hsk_link[key]=value  # return 받은 딕셔너리를 리스트에 추가
             # print(chn_hsk_link)
             # 저장
-            # save_dict_csv(chn_hsk_link, 'hsk_words_link.csv') Pycharm 에러로 연결해서 재시작
+            # save_dict_csv(chn_hsk_link, 'hsk_words_link1.csv') Pycharm 에러로 연결해서 재시작
             # save_dict_csv(chn_hsk_link, 'hsk_words_link3.csv') 분할실행
-            save_dict_csv(chn_hsk_link, 'hsk_words_link4.csv')
+            save_dict_csv(chn_hsk_link, '../csv/hsk_words_link4.csv')
 
 """
 error?
