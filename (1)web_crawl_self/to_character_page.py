@@ -21,6 +21,7 @@ def get_han_chr_link(han_chr):
             driver.close()
             pass
 
+
 chr_dic_address = {}
 
 for i in hanyu_list.hanyu:
