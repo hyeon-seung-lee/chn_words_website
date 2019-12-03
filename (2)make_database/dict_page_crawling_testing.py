@@ -26,7 +26,7 @@ class Get_chndic_data:
         driver.close()
         return soup
 
-    def find_letter_inf(self):
+    def find_word_inf(self):
         soup = self.beautiful_soup(self.link)
         letter = soup.find('div', id='container').find('div', class_="section section_entry _section_entry"). \
             find('div', class_="entry_title _guide_lang").find_all('a', class_="link")
@@ -47,12 +47,31 @@ class Get_chndic_data:
 
         return self.get_data
 
-    def get_hsk_words(self):
+    def find_letter_inf(self):
+        soup = self.beautiful_soup(self.link)
+        letter = soup.find('div', id='container').find('div', class_="section section_entry _section_entry"). \
+            find('div', class_="entry_title _guide_lang").find('strong', class_="word")
+        get_letter = ''
+        get_related_letters = []
+        get_related_link = []
+
+
+
+        for y in letter:
+            get_related_link.append(y['href'])
+
+        self.get_data.append(get_letter)
+        self.get_data.append(get_related_letters)
+        self.get_data.append(get_related_link)
+
+        return self.get_data
+
+    def change_related_words(self):
         """
         get_data[2] 의 주소 데이터(검색 페이지)를 모두 (글자 페이지) 주소로 변환
         """
         data_list = []
-        self.get_data = self.find_letter_inf()
+        self.get_data = self.find_word_inf()
         for link in self.get_data[2]:
             soup = self.beautiful_soup(link)
 
@@ -69,6 +88,8 @@ class Get_chndic_data:
         self.get_data[2] = data_list
         return self.get_data
 
+    def execute(self):
+        pass
 
 
 
@@ -85,6 +106,9 @@ class Get_chndic_data:
 """
 
 # x = get_letter_relation('#/entry/zhko/0cb25d23fd4c4afe9b4cd5a22ccad8ca')
-x = Get_chndic_data('#/entry/zhko/0cb25d23fd4c4afe9b4cd5a22ccad8ca')
+# x = Get_chndic_data('#/entry/zhko/3991a2a5344e40cbb91d4b08c3e36e26')  # 星
+# ['我们', ['我', '们'], ['#/entry/zhko/a163884686ac406abadf39a35d06c9f5', '#/entry/zhko/a4dce4b8e2b742abab8555684e8d845f']]
 
-print(x.get_hsk_words())
+x = Get_chndic_data('#/entry/zhko/0cb25d23fd4c4afe9b4cd5a22ccad8ca')  # 我们
+
+print(x.change_related_words())
