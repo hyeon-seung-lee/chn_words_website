@@ -8,5 +8,5 @@
 # print(df0)
 #
 
-text = '[ wǒ‧men ]'
-print(text.strip('[]').strip(' '))
+text = 'HSK1급단어'
+print(text.find('1급'))

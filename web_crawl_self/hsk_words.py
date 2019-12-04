@@ -124,9 +124,9 @@ if __name__ == '__main__':
 """
 error?
 Traceback (most recent call last):
-  File "C:/Users/LVSTA/Desktop/GitHub/lab-python/(1)(1)web_crawl_self/hsk_words.py", line 87, in <module>
+  File "C:/Users/LVSTA/Desktop/GitHub/lab-python/(1)web_crawl_self/hsk_words.py", line 87, in <module>
     get_list = get_hsk_words(row[2])
-  File "C:/Users/LVSTA/Desktop/GitHub/lab-python/(1)(1)web_crawl_self/hsk_words.py", line 37, in get_hsk_words
+  File "C:/Users/LVSTA/Desktop/GitHub/lab-python/(1)web_crawl_self/hsk_words.py", line 37, in get_hsk_words
     if type(chr_container) == type(None):
 UnboundLocalError: local variable 'chr_container' referenced before assignment
 

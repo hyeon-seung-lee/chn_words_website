@@ -8,8 +8,9 @@ from web_crawl_self import hanyu_list
 def get_han_chr_link(han_chr):
     while True:
         try:
-            driver = webdriver.Chrome("D:/dev/chromedriver.exe")
-            url = f'https://zh.dict.naver.com/#/search?range=all&query={han_chr}'
+            # driver = webdriver.Chrome("D:/dev/chromedriver.exe")
+            driver = webdriver.Chrome("C:/Users/user/Downloads/chromedriver.exe")  # 학원에서 chromedriver 경로
+            url = f'https://zh.dict.naver.com/#/search?range=al&query={han_chr}'
             driver.get(url)
             content = driver.page_source.encode('utf-8').strip()
             soup = BeautifulSoup(content, "html.parser")
@@ -29,7 +30,8 @@ for i in hanyu_list.hanyu:
     print(chr_dic_address)
 
 link_data = pd.DataFrame(chr_dic_address.items(), columns=['chr', 'link'])
-link_data.to_csv('dic_link.csv', encoding='utf-8')
+print(link_data)
+# link_data.to_csv('dic_link.csv', encoding='utf-8')
 
 # print(f'chrlink: {chr_link}')
 

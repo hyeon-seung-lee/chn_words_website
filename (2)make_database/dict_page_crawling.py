@@ -18,7 +18,7 @@ class Get_chndic_data:
         """
         # driver = webdriver.Chrome("D:/dev/chromedriver.exe")  # 집에서 chromedriver 경로
         driver = webdriver.Chrome("C:/Users/user/Downloads/chromedriver.exe")  # 학원에서 chromedriver 경로
-        url = f'https://zh.dict.naver.com/{link}'
+        url = f'https://zh.dict.naver.com/{self.link}'
         driver.get(url)
         driver.minimize_window()
         content = driver.page_source.encode('utf-8').strip()
@@ -30,21 +30,26 @@ class Get_chndic_data:
         soup = self.beautiful_soup(self.link)
         letter = soup.find('div', id='container').find('div', class_="section section_entry _section_entry"). \
             find('div', class_="entry_title _guide_lang").find_all('a', class_="link")
+
         get_letter = ''
         get_related_letters = []
         get_related_link = []
 
-        for i in letter:
-            get_letter += i.text
-            get_related_letters.append(i.text)
+        if len(letter) > 1:
+            for i in letter:
+                get_letter += i.text
+                get_related_letters.append(i.text)
 
-        for y in letter:
-            get_related_link.append(y['href'])
+            for y in letter:
+                get_related_link.append(y['href'])
+
+        else:
+            get_letter = letter.text
 
         self.get_data.append(get_letter)
         self.get_data.append(get_related_letters)
         self.get_data.append(get_related_link)
-
+        # print(self.get_data)
         return self.get_data
 
     def get_hsk_words(self):
@@ -53,15 +58,21 @@ class Get_chndic_data:
         """
         data_list = []
         self.get_data = self.find_letter_inf()
+        print(self.get_data[2])
         for link in self.get_data[2]:
             soup = self.beautiful_soup(link)
 
             for i in range(5):
                 try:
-                    letter_page_link = soup.find('div', id='container').find('div', class_="section section_keyword")\
-                        .find('div', class_='origin').find('a', class_='link')
-                    data_list.append(letter_page_link['href'])
-                    break
+                    letter_page_link = soup.find('div', id='container')
+                    print(letter_page_link)
+
+
+                    #     .find('div', class_="section section_keyword")\
+                    #     .find('div', class_='origin').find('a', class_='link')
+                    # for link_ in letter_page_link:
+                    #     data_list.append(link_['href'])
+                    #     break
                 except AttributeError:
                     pass
                     print('error?')
@@ -70,8 +81,10 @@ class Get_chndic_data:
         return self.get_data
 
 
-
-
+def split_str(self, row):
+    """to_csv(dict.items()) 형태로 저장된 csv파일은 str class 형태로 저장되기 때문에 데이터 가공이 필요함"""
+    inst_list_ = row.replace("\'", '').replace(' ', '').replace('[', '').replace(']', '').split(',')
+    return inst_list_
 
 
 """
@@ -88,3 +101,4 @@ class Get_chndic_data:
 x = Get_chndic_data('#/entry/zhko/0cb25d23fd4c4afe9b4cd5a22ccad8ca')
 
 print(x.get_hsk_words())
+
