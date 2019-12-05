@@ -52,12 +52,12 @@ class Get_chndic_data:
                 letter_component_link.append(y['href'])
         else:
             get_letter = letter.find('strong', lang="zh").text
-            print('letter: ',get_letter)
+            # print('letter: ',get_letter)
         self.get_data.append(get_letter)  # 글자
         self.get_data.append(letter_pronoun)
         self.get_data.append(letter_component)  # 단어일 경우 구성 글자
         self.get_data.append(letter_component_link)  # 구성 글자 링크
-        print(self.get_data)
+        # print(self.get_data)
         return self.get_data
 
     def to_dict_page(self):
@@ -74,7 +74,7 @@ class Get_chndic_data:
                 .find('div', id="content").find('div', class_="section section_keyword") \
                 .find('div', class_='row') \
                 .find('div', class_="origin").find('a', class_='link')
-            print(letter_page_link)
+            # print(letter_page_link)
             if letter_page_link is not None:
                 data_list.append(letter_page_link['href'])
             else:
