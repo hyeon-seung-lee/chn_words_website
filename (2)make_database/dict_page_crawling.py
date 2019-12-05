@@ -1,5 +1,6 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
+import pandas as pd
 
 
 class Get_chndic_data:
@@ -18,7 +19,7 @@ class Get_chndic_data:
         """
         # driver = webdriver.Chrome("D:/dev/chromedriver.exe")  # 집에서 chromedriver 경로
         driver = webdriver.Chrome("C:/Users/user/Downloads/chromedriver.exe")  # 학원에서 chromedriver 경로
-        url = f'https://zh.dict.naver.com/{self.link}'
+        url = f'https://zh.dict.naver.com/{link}'
         driver.get(url)
         driver.minimize_window()
         content = driver.page_source.encode('utf-8').strip()
@@ -27,32 +28,38 @@ class Get_chndic_data:
         return soup
 
     def find_letter_inf(self):
+        """
+        글자 link를 이용해 글자와 글자 뜻, 병음, 단어일 경우 구성 글자와 구성 글자 링크를 받아옴
+        :return:  위 자료로 구성된 list
+        """
+        # 병음 추가해야 함.
         soup = self.beautiful_soup(self.link)
         letter = soup.find('div', id='container').find('div', class_="section section_entry _section_entry"). \
-            find('div', class_="entry_title _guide_lang").find_all('a', class_="link")
-
-        get_letter = ''
-        get_related_letters = []
-        get_related_link = []
+            find('div', class_="entry_title _guide_lang")  # find_all('a', class_="link")
+        pronunc
+        get_letter = ''  # 글자
+        letter_component = []  # 단어일 경우 구성 글자
+        letter_component_link = []  # 구성 글자 링크
 
         if len(letter) > 1:
             for i in letter:
                 get_letter += i.text
-                get_related_letters.append(i.text)
+                letter_component.append(i.text)
 
-            for y in letter:
-                get_related_link.append(y['href'])
+            letter_link = letter.find_all('a', class_="link")
+            for y in letter_link:
+                letter_component_link.append(y['href'])
 
         else:
             get_letter = letter.text
 
         self.get_data.append(get_letter)
-        self.get_data.append(get_related_letters)
-        self.get_data.append(get_related_link)
+        self.get_data.append(letter_component)
+        self.get_data.append(letter_component_link)
         # print(self.get_data)
         return self.get_data
 
-    def get_hsk_words(self):
+    def to_dict_page(self):
         """
         get_data[2] 의 주소 데이터(검색 페이지)를 모두 (글자 페이지) 주소로 변환
         """
@@ -62,20 +69,22 @@ class Get_chndic_data:
         for link in self.get_data[2]:
             soup = self.beautiful_soup(link)
 
-            for i in range(5):
-                try:
-                    letter_page_link = soup.find('div', id='container')
+            try:
+                while True:
+                    letter_page_link = soup.find('div', id='container') \
+                        .find('div', id="content").find('div', class_="component_keyword has-saving-function") \
+                        .find('div', class_="origin").find('a', class_='link')
                     print(letter_page_link)
+                    if letter_page_link is not None:
+                        data_list.append(letter_page_link['href'])
+                        break
+                    else:
+                        continue
 
 
-                    #     .find('div', class_="section section_keyword")\
-                    #     .find('div', class_='origin').find('a', class_='link')
-                    # for link_ in letter_page_link:
-                    #     data_list.append(link_['href'])
-                    #     break
-                except AttributeError:
-                    pass
-                    print('error?')
+            except AttributeError:
+                pass
+                print('error?')
 
         self.get_data[2] = data_list
         return self.get_data
@@ -99,6 +108,5 @@ def split_str(self, row):
 
 # x = get_letter_relation('#/entry/zhko/0cb25d23fd4c4afe9b4cd5a22ccad8ca')
 x = Get_chndic_data('#/entry/zhko/0cb25d23fd4c4afe9b4cd5a22ccad8ca')
-
-print(x.get_hsk_words())
-
+pd.read_csv('')
+print(x.to_dict_page())
