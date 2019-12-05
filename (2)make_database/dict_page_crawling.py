@@ -17,8 +17,8 @@ class Get_chndic_data:
         :param link: https://zh.dict.naver.com/ 뒤에 들어갈 {letter_link}  주소
         :return: row 데이터
         """
-        # driver = webdriver.Chrome("D:/dev/chromedriver.exe")  # 집에서 chromedriver 경로
-        driver = webdriver.Chrome("C:/Users/user/Downloads/chromedriver.exe")  # 학원에서 chromedriver 경로
+        driver = webdriver.Chrome("D:/dev/chromedriver.exe")  # 집에서 chromedriver 경로
+        # driver = webdriver.Chrome("C:/Users/user/Downloads/chromedriver.exe")  # 학원에서 chromedriver 경로
         url = f'https://zh.dict.naver.com/{link}'
         driver.get(url)
         driver.minimize_window()
@@ -36,27 +36,30 @@ class Get_chndic_data:
         soup = self.beautiful_soup(self.link)
         letter = soup.find('div', id='container').find('div', class_="section section_entry _section_entry"). \
             find('div', class_="entry_title _guide_lang")  # find_all('a', class_="link")
-        pronunc
+        pronunc = soup.find('div', id='container').find('div', class_="section section_entry _section_entry"). \
+            find('dl', class_="entry_pronounce").find('div', class_="item").find('span', class_="pronounce")
         get_letter = ''  # 글자
         letter_component = []  # 단어일 경우 구성 글자
         letter_component_link = []  # 구성 글자 링크
+        letter_pronoun = [pronunc.text]
 
         if len(letter) > 1:
-            for i in letter:
+            letter_link = letter.find_all('a', class_="link")
+            for i in letter_link:
                 get_letter += i.text
                 letter_component.append(i.text)
 
-            letter_link = letter.find_all('a', class_="link")
             for y in letter_link:
                 letter_component_link.append(y['href'])
 
         else:
             get_letter = letter.text
 
-        self.get_data.append(get_letter)
-        self.get_data.append(letter_component)
-        self.get_data.append(letter_component_link)
-        # print(self.get_data)
+        self.get_data.append(get_letter)  # 글자
+        self.get_data.append(letter_pronoun)
+        self.get_data.append(letter_component)  # 단어일 경우 구성 글자
+        self.get_data.append(letter_component_link)  # 구성 글자 링크
+        print(self.get_data)
         return self.get_data
 
     def to_dict_page(self):
@@ -65,35 +68,22 @@ class Get_chndic_data:
         """
         data_list = []
         self.get_data = self.find_letter_inf()
-        print(self.get_data[2])
-        for link in self.get_data[2]:
+        print(self.get_data[3][1])
+        for link in self.get_data[3]:
+            print('link:', link)
             soup = self.beautiful_soup(link)
-
-            try:
-                while True:
-                    letter_page_link = soup.find('div', id='container') \
-                        .find('div', id="content").find('div', class_="component_keyword has-saving-function") \
-                        .find('div', class_="origin").find('a', class_='link')
-                    print(letter_page_link)
-                    if letter_page_link is not None:
-                        data_list.append(letter_page_link['href'])
-                        break
-                    else:
-                        continue
-
-
-            except AttributeError:
-                pass
-                print('error?')
-
-        self.get_data[2] = data_list
+            letter_page_link = soup.find('div', id='container') \
+                .find('div', id="content").find('div', class_="section section_keyword") \
+                .find('div', class_='row') \
+                .find('div', class_="origin").find('a', class_='link')
+            print(letter_page_link)
+            if letter_page_link is not None:
+                data_list.append(letter_page_link['href'])
+            else:
+                continue
+            # print(data_list)
+        self.get_data[3] = data_list
         return self.get_data
-
-
-def split_str(self, row):
-    """to_csv(dict.items()) 형태로 저장된 csv파일은 str class 형태로 저장되기 때문에 데이터 가공이 필요함"""
-    inst_list_ = row.replace("\'", '').replace(' ', '').replace('[', '').replace(']', '').split(',')
-    return inst_list_
 
 
 """
@@ -107,6 +97,12 @@ def split_str(self, row):
 """
 
 # x = get_letter_relation('#/entry/zhko/0cb25d23fd4c4afe9b4cd5a22ccad8ca')
-x = Get_chndic_data('#/entry/zhko/0cb25d23fd4c4afe9b4cd5a22ccad8ca')
-pd.read_csv('')
-print(x.to_dict_page())
+get_data_list = []
+hsk_words_link = pd.read_csv('../csv/hsk_words_link6.csv', encoding='UTF-8')
+# print(hsk_words_link.iloc[:,1])
+for link in hsk_words_link.iloc[:, 1]:
+    get_data = Get_chndic_data(link)
+    get_data_list.append(get_data.to_dict_page())
+    df = pd.DataFrame(get_data_list)
+    print(df.tail())
+    df.to_csv('../csv/hsk_words_dictionary.csv')
