@@ -37,7 +37,7 @@ class Get_chndic_data:
         letter = soup.find('div', id='container').find('div', class_="section section_entry _section_entry") \
             .find('div', class_="entry_title _guide_lang")
         # find_all('a', class_="link")
-        letter_meaning = soup.find('div', id='container').find('div', class_="section section_entry _section_entry")\
+        letter_meaning = soup.find('div', id='container').find('div', class_="section section_entry _section_entry") \
             .find('p', class_="entry_mean")  # 뜻
         pronunc = soup.find('div', id='container').find('div', class_="section section_entry _section_entry"). \
             find('dl', class_="entry_pronounce").find('div', class_="item").find('span', class_="pronounce")
@@ -77,10 +77,13 @@ class Get_chndic_data:
         for link in self.get_data[3]:
             # print('link:', link)
             soup = self.beautiful_soup(link)
+
             letter_page_link = soup.find('div', id='container') \
                 .find('div', id="content").find('div', class_="section section_keyword") \
                 .find('div', class_='row') \
                 .find('div', class_="origin").find('a', class_='link')
+            # print(letter_page_link)
+
             # print(letter_page_link)
             if letter_page_link is not None:
                 data_list.append(letter_page_link['href'])
@@ -105,9 +108,14 @@ class Get_chndic_data:
 get_data_list = []
 hsk_words_link = pd.read_csv('../csv/hsk_words_link6.csv', encoding='UTF-8')
 # print(hsk_words_link.iloc[:,1])
-for link in hsk_words_link.iloc[24:, 1]:
-    get_data = Get_chndic_data(link)
-    get_data_list.append(get_data.to_dict_page())
-    df = pd.DataFrame(get_data_list)
-    print(df.tail())
-    df.to_csv('../csv/hsk_words_dictionary2.csv')
+for link in hsk_words_link.iloc[179:, 1]:
+    while True:
+        try:
+            get_data = Get_chndic_data(link)
+            get_data_list.append(get_data.to_dict_page())
+            df = pd.DataFrame(get_data_list)
+            print(df.tail())
+            df.to_csv('../csv/hsk_words_dictionary2.csv')
+        except AttributeError:
+            print('try again')
+            continue
