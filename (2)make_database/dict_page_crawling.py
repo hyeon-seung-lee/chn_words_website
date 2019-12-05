@@ -42,19 +42,17 @@ class Get_chndic_data:
         letter_component = []  # 단어일 경우 구성 글자
         letter_component_link = []  # 구성 글자 링크
         letter_pronoun = [pronunc.text]
-
-        if len(letter) > 1:
-            letter_link = letter.find_all('a', class_="link")
+        letter_link = letter.find_all('a', class_="link")
+        if letter_link:
             for i in letter_link:
                 get_letter += i.text
                 letter_component.append(i.text)
 
             for y in letter_link:
                 letter_component_link.append(y['href'])
-
         else:
-            get_letter = letter.text
-
+            get_letter = letter.find('strong', lang="zh").text
+            print('letter: ',get_letter)
         self.get_data.append(get_letter)  # 글자
         self.get_data.append(letter_pronoun)
         self.get_data.append(letter_component)  # 단어일 경우 구성 글자
@@ -68,9 +66,9 @@ class Get_chndic_data:
         """
         data_list = []
         self.get_data = self.find_letter_inf()
-        print(self.get_data[3][1])
+        # print(self.get_data[3][1])
         for link in self.get_data[3]:
-            print('link:', link)
+            # print('link:', link)
             soup = self.beautiful_soup(link)
             letter_page_link = soup.find('div', id='container') \
                 .find('div', id="content").find('div', class_="section section_keyword") \
@@ -100,9 +98,9 @@ class Get_chndic_data:
 get_data_list = []
 hsk_words_link = pd.read_csv('../csv/hsk_words_link6.csv', encoding='UTF-8')
 # print(hsk_words_link.iloc[:,1])
-for link in hsk_words_link.iloc[:, 1]:
+for link in hsk_words_link.iloc[24:, 1]:
     get_data = Get_chndic_data(link)
     get_data_list.append(get_data.to_dict_page())
     df = pd.DataFrame(get_data_list)
     print(df.tail())
-    df.to_csv('../csv/hsk_words_dictionary.csv')
+    df.to_csv('../csv/hsk_words_dictionary2.csv')
