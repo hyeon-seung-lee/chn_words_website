@@ -34,8 +34,11 @@ class Get_chndic_data:
         """
         # 병음 추가해야 함.
         soup = self.beautiful_soup(self.link)
-        letter = soup.find('div', id='container').find('div', class_="section section_entry _section_entry"). \
-            find('div', class_="entry_title _guide_lang")  # find_all('a', class_="link")
+        letter = soup.find('div', id='container').find('div', class_="section section_entry _section_entry") \
+            .find('div', class_="entry_title _guide_lang")
+        # find_all('a', class_="link")
+        letter_meaning = soup.find('div', id='container').find('div', class_="section section_entry _section_entry")\
+            .find('p', class_="entry_mean")  # 뜻
         pronunc = soup.find('div', id='container').find('div', class_="section section_entry _section_entry"). \
             find('dl', class_="entry_pronounce").find('div', class_="item").find('span', class_="pronounce")
         get_letter = ''  # 글자
@@ -57,6 +60,10 @@ class Get_chndic_data:
         self.get_data.append(letter_pronoun)
         self.get_data.append(letter_component)  # 단어일 경우 구성 글자
         self.get_data.append(letter_component_link)  # 구성 글자 링크
+        if letter_meaning:
+            self.get_data.append(letter_meaning.text)
+        else:
+            pass
         # print(self.get_data)
         return self.get_data
 
