@@ -108,14 +108,16 @@ class Get_chndic_data:
 get_data_list = []
 hsk_words_link = pd.read_csv('../csv/hsk_words_link6.csv', encoding='UTF-8')
 # print(hsk_words_link.iloc[:,1])
-for link in hsk_words_link.iloc[179:, 1]:
-    while True:
-        try:
-            get_data = Get_chndic_data(link)
-            get_data_list.append(get_data.to_dict_page())
-            df = pd.DataFrame(get_data_list)
-            print(df.tail())
-            df.to_csv('../csv/hsk_words_dictionary2.csv')
-        except AttributeError:
-            print('try again')
-            continue
+for index in range(1334, 2810, 295):
+    for link in hsk_words_link.iloc[index:index+295, 1]:
+        while True:
+            try:
+                get_data = Get_chndic_data(link)
+                get_data_list.append(get_data.to_dict_page())
+                df = pd.DataFrame(get_data_list)
+                print(df.tail())
+                df.to_csv(f'../csv/hsk_words_dictionary{index}.csv')
+                break
+            except AttributeError:
+                print('try again')
+                continue

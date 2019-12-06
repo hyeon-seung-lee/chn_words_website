@@ -1,3 +1,290 @@
 ,0,1,2,3,4
 0,的确,['[ díquè ]'],"['的', '确']","['#/entry/zhko/774d30af491e4b63b4078562965565f8', '#/entry/zhko/89d8cc13be09497cb4dc61a0f80c1c6d']",1.확실히   2.분명히   3.정말   4.참으로
-1,的确,['[ díquè ]'],"['的', '确']","['#/entry/zhko/774d30af491e4b63b4078562965565f8', '#/entry/zhko/89d8cc13be09497cb4dc61a0f80c1c6d']",1.확실히   2.분명히   3.정말   4.참으로
+1,沉思,['[ chénsī ]'],"['沉', '思']","['#/entry/zhko/049e72dc16884a60b7f64e715636c3bc', '#/entry/zhko/37b13f4624644638ab94dc474e6d416e']",1.숙고하다   2.깊이 생각하다   3.심사   4.숙고
+2,今天,['[ jīntiān ]'],"['今', '天']","['#/entry/zhko/04d62a12f6fe479083bf798d6beaf830', '#/entry/zhko/7b7de782c3d04a459a2d105e44201e7b']",1.오늘   2.현재   3.목전
+3,信心,['[ xìnxīn ]'],"['信', '心']","['#/entry/zhko/9065e8ed050340ee8e2e67b7366cae3e', '#/entry/zhko/d504e2395ba74a8abc2aaa1413196690']",1.자신   2.확신   3.신념   4.믿는 마음
+4,唯一,['[ wéiyī ]'],"['唯', '一']","['#/entry/zhko/796479d5f6334b10b8230795333ca2ab', '#/entry/zhko/8500c302bffc4c679ae96f1502cae41b']",1.유일한   2.하나밖에 없는
+5,觉醒,['[ juéxǐng ]'],"['觉', '醒']","['#/entry/zhko/43bf84881e5a44579514c46476636928', '#/entry/zhko/2aa5fa425f814f57927e97dd77e7a290']",
+6,卧室,['[ wòshì ]'],"['卧', '室']","['#/entry/zhko/964fa95bc68f45ef977f10d336b4d98d', '#/entry/zhko/160ba92f67144859b7aa866d04d4be30']",
+7,恐吓,['[ kǒnghè ]'],"['恐', '吓']","['#/entry/zhko/910b0869e7b341caa9ce5bed627142fa', '#/entry/zhko/4aa3ba4bf6d941d7af18caf859e2ec9c']",1.으르다   2.위협하다   3.협박하다   4.공갈하다
+8,人家,['[ rén‧jia ]'],"['人', '家']","['#/entry/zhko/7f6ef11496e949fe8aef2de9bc4944a3', '#/entry/zhko/ce5cb7b1f78c4afb838a2cad7647b1e3']",1.남   2.그 사람   3.나   4.…라고 하는 것
+9,财务,['[ cáiwù ]'],"['财', '务']","['#/entry/zhko/3f63547b34674ec6b94e5afdf6beafe5', '#/entry/zhko/b3a9312f16ea444099106be540dd580b']",1.재무   2.재정
+10,不然,['[ bùrán ]'],"['不', '然']","['#/entry/zhko/8f5c09bedf324bc49d1b4f4e590ff8e8', '#/entry/zhko/71fa4748a8e047e08690fe2af5fcc4e4']",1.그렇지 않다   2.아니요   3.그렇지 않으면
+11,轻易,['[ qīng‧yì ]'],"['轻', '易']","['#/entry/zhko/4ac930b227d44e529a5a445919bfe6e5', '#/entry/zhko/6b34a1d6c358474881eaa1a40e4bad1c']",1.수월하게   2.함부로   3.간단하다
+12,正宗,['[ zhèngzōng ]'],"['正', '宗']","['#/entry/zhko/51c5decf26b24015b0c57b83c1881525', '#/entry/zhko/4ee2e1e36fd548d3b5b9e729baec7b09']",1.정종   2.정통   3.정종의
+13,毛病,['[ máo‧bìng ]'],"['毛', '病']","['#/entry/zhko/fd2bfb64cddf4698a3f9cf7d56f91e00', '#/entry/zhko/a71a2876607640d59dd0fc8025a41236']",1.약점   2.고장   3.결점   4.병
+14,反常,['[ fǎncháng ]'],"['反', '常']","['#/entry/zhko/a3b285276b8c4146bee3a779012a4d79', '#/entry/zhko/1e2aa193737a48d9a4df14ea3658a414']",1.비정상적이다   2.정상이 아니다
+15,一如既往,['[ yì rú jì wǎng ]'],"['一', '如', '既', '往']","['#/entry/zhko/8500c302bffc4c679ae96f1502cae41b', '#/entry/zhko/dcfc48c8b4a34043b3027272ba395653', '#/entry/zhko/fec4ee4f1ce242d49cce12306ab31415', '#/entry/zhko/922fd440ff904ca5ae76a7e67b5afb83']",
+16,借助,['[ jièzhù ]'],"['借', '助']","['#/entry/zhko/094cf968bdb240e5862c7c85e0e4b4be', '#/entry/zhko/c5724234c96e4f188c301e1879248968']",1.도움을 빌다   2.…의 힘을 빌리다
+17,看法,['[ kàn·fǎ ]'],"['看', '法']","['#/entry/zhko/9f9a6069eeb04015a3a0296caea77a47', '#/entry/zhko/22609335f00742358b45cbea811d47d6']",1.인식   2.견해   3.부정적인 의견   4.부정적인 시각
+18,名额,['[ míng’é ]'],"['名', '额']","['#/entry/zhko/8de683efdccc42c48bab335061bd9e2b', '#/entry/zhko/59956e13d9d44e3bb2509b590d55386e']",1.정원   2.인원수
+19,服装,['[ fúzhuāng ]'],"['服', '装']","['#/entry/zhko/a5da2d8d4ec848909eaa669107b60c93', '#/entry/zhko/14a45f62eefd440f8280bf9ea6efcf86']",
+20,妹妹,['[ mèi‧mei ]'],"['妹', '妹']","['#/entry/zhko/f263110cf04e48d6aa9d54f5d5c02eb5', '#/entry/zhko/f263110cf04e48d6aa9d54f5d5c02eb5']",1.누이동생   2.나이가 어린 여자
+21,地位,['[ dìwèi ]'],"['地', '位']","['#/entry/zhko/4f9861180e054d688369818f489ace64', '#/entry/zhko/e338cc812d46430ebc109091ebd006c8']",1.위치   2.지위   3.차지한 자리
+22,开明,['[ kāimíng ]'],"['开', '明']","['#/entry/zhko/e6e76b146dd644b494cde29a7d4b650c', '#/entry/zhko/61f798567d2e4b578ff22974ee6c7c8e']",1.깨어 있다   2.진보적이다
+23,结账,['[ jié//zhàng ]'],"['结', '账']","['#/entry/zhko/2d6f7691759440249db8129cac7bb891', '#/entry/zhko/a314199c0d35447ba4049e1caf80f65b']",1.장부를 결산하다   2.회계를 마치다   3.계산하다
+24,友谊,['[ yǒuyì ]'],"['友', '谊']","['#/entry/zhko/2800e33d185546f3b7fd2f788e297c93', '#/entry/zhko/795bc37c05614d8e9eae617cb723c307']",1.우의   2.우정
+25,联合,['[ liánhé ]'],"['联', '合']","['#/entry/zhko/f3d31ef51a7647bf9f388fc7f74246db', '#/entry/zhko/61727e18099d4647984e17b3dc242dfa']",1.연합   2.단결   3.공동   4.결합
+26,修理,['[ xiūlǐ ]'],"['修', '理']","['#/entry/zhko/45337f4fbb684666b3e6645e08fa26be', '#/entry/zhko/024d210665774d08bd6a3141e1781ab4']",1.수리하다   2.修剪   3.고통을 겪게 하다
+27,造成,['[ zàochéng ]'],"['造', '成']","['#/entry/zhko/e83046ca9e73457da2f80c70853071e0', '#/entry/zhko/9e2e167d35e84052b0c22382b414d197']",1.조성하다   2.만들다   3.발생시키다   4.야기하다
+28,随意,['[ suí//yì ]'],"['随', '意']","['#/entry/zhko/481b9a92982c4861858bc767a40039c2', '#/entry/zhko/00087d1e231a40dbbfb2843b5f0b9867']",1.뜻대로 하다   2.생각대로 하다
+29,合伙,['[ héhuǒ ]'],"['合', '伙']","['#/entry/zhko/61727e18099d4647984e17b3dc242dfa', '#/entry/zhko/b5f7dd642de3400897ba4a75f31aeb3e']",1.파트너십이 되다   2.동반자가 되다   3.한패가 되다   4.동업하다
+30,简直,['[ jiǎnzhí ]'],"['简', '直']","['#/entry/zhko/1b18b28ebfa1416ba55a24910a708deb', '#/entry/zhko/f08abb914452428b8fceffb2b59910b7']",1.그야말로   2.차라리   3.솔직하게   4.곧바로
+31,北极,['[ běijí ]'],"['北', '极']","['#/entry/zhko/0c0cd9d46fb441e48e3ecd0dd2541653', '#/entry/zhko/427461eac9e04896bd3a2f987883592c']",
+32,生长,['[ shēngzhǎng ]'],"['生', '长']","['#/entry/zhko/df5ba42276cf49968bc88517db7d146f', '#/entry/zhko/8f01eb96acd54bbdab9e0092fe602537']",1.생장하다   2.성장하다   3.나서 자라다
+33,和,['[ huǎnhé ]'],['和'],['#/entry/zhko/d031fbb41e1b4725845a70349a1b4fb3'],1.완화시키다   2.완화하다   3.늦추다
+34,喘气,['[ chuǎn//qì ]'],"['喘', '气']","['#/entry/zhko/18a409c5eff746b599cbd2df9aeaf596', '#/entry/zhko/0bf16093641c469998407bba451994fa']",1.헐떡거리다   2.숨차다   3.잠깐 쉬다   4.한숨 돌리다
+35,光滑,['[ guāng‧huá ]'],"['光', '滑']","['#/entry/zhko/8baeb4ec566c4b31ba1e894df2dcffda', '#/entry/zhko/fcf5db329020460195050247a07241fd']",1.매끄럽다   2.반들반들하다   3.빤질빤질하다   4.사람됨이 빤질빤질하다
+36,外向,['[ wàixiàng ]'],"['外', '向']","['#/entry/zhko/c5c1d7bba3a446c4adde97229edc2614', '#/entry/zhko/e9a9dd0f9a1f45dea71c66f7c119fb1a']",1.외향적이다   2.대외 지향적이다
+37,沾光,['[ zhān//guāng ]'],"['沾', '光']","['#/entry/zhko/1190f6f2f9b24b3fa4f98ee0b7b35be6', '#/entry/zhko/8baeb4ec566c4b31ba1e894df2dcffda']",1.덕을 보다   2.은혜를 입다   3.신세를 지다
+38,吃力,['[ chīlì ]'],"['吃', '力']","['#/entry/zhko/d117f5a69e85404aaf2a07e6213db6f5', '#/entry/zhko/ef580c45890f49fb84666255304b0348']",1.힘들다   2.애를 쓰다   3.피로하다
+39,无微不至,['[ wú wēi bú zhì ]'],"['无', '微', '不', '至']","['#/entry/zhko/205b7edfb0b649838d817932f298cc0a', '#/entry/zhko/efdfa10d18ee45b881e5ecbb883e26a1', '#/entry/zhko/8f5c09bedf324bc49d1b4f4e590ff8e8', '#/entry/zhko/3b042ba783d446ba8e2a13887a52916e']",
+40,解剖,['[ jiěpōu ]'],"['解', '剖']","['#/entry/zhko/73e5b205659d4d76b1c2da6da836a3f3', '#/entry/zhko/3f0eaf45f1224bcea62465417b3d322e']",1.해부   2.분석하다
+41,动态,['[ dòngtài ]'],"['动', '态']","['#/entry/zhko/c9e7b20c77a744b0bd58cdb7c85a1265', '#/entry/zhko/4f28dcb9b3f048f5a49df28b891d44fa']",1.변화하는 상태   2.동작   3.동태
+42,共和国,['[ gònghéguó ]'],"['共', '和', '国']","['#/entry/zhko/838a2f74c1d44f6498a62d10a717dfe5', '#/entry/zhko/d031fbb41e1b4725845a70349a1b4fb3', '#/entry/zhko/adfd96a8f127463db3470cc6bf89387c']",
+43,成长,['[ chéngzhǎng ]'],"['成', '长']","['#/entry/zhko/9e2e167d35e84052b0c22382b414d197', '#/entry/zhko/8f01eb96acd54bbdab9e0092fe602537']",1.성장하다   2.자라다   3.발전하다   4.증가하다
+44,指甲,['[ zhǐ‧jia ]'],"['指', '甲']","['#/entry/zhko/dc9f803a6a744b4481f255a0e97a138f', '#/entry/zhko/bc7c4f222bca48918f94a01dbbc4d816']",
+45,条约,['[ tiáoyuē ]'],"['条', '约']","['#/entry/zhko/7d0bcb6b2e0e4c49ab2dae38218bcdda', '#/entry/zhko/0c9a7e648c9b480e8fb407ecd517d937']",1.조약   2.계약
+46,取缔,['[ qǔdì ]'],"['取', '缔']","['#/entry/zhko/623db085149549c8bd8008855bc266c9', '#/entry/zhko/11a95eaaba174d2ea7a382349cdeab79']",1.취소하다   2.금지하다
+47,神态,['[ shéntài ]'],"['神', '态']","['#/entry/zhko/de3c274e10ac4c0e81fd576372bdf393', '#/entry/zhko/4f28dcb9b3f048f5a49df28b891d44fa']",1.표정과 태도   2.기색과 자태   3.신의 풍모
+48,合法,['[ héfǎ ]'],"['合', '法']","['#/entry/zhko/61727e18099d4647984e17b3dc242dfa', '#/entry/zhko/22609335f00742358b45cbea811d47d6']",1.법에 맞다   2.합법적이다
+49,分歧,['[ fēnqí ]'],"['分', '歧']","['#/entry/zhko/eaa8679b1f9f490cad9fee0ecb021098', '#/entry/zhko/ff47efdd82244b3798346e82303acd62']",1.어긋나다   2.불일치   3.2진 논리 조건
+50,线索,['[ xiànsuǒ ]'],"['线', '索']","['#/entry/zhko/e608310c9042495f98a8da0aec447f34', '#/entry/zhko/3c362fcc72304cc59c336789b63debf3']",1.실마리   2.단서   3.줄거리   4.플롯
+51,答辩,['[ dábiàn ]'],"['答', '辩']","['#/entry/zhko/f1b86db4bd6d4294908c9880f67e76ca', '#/entry/zhko/ed83ee1124ce4a1eb4fbd37446c47031']",
+52,差别,['[ chābié ]'],"['差', '别']","['#/entry/zhko/6b24a2e8eeab443ca11bc48c8bf0a02d', '#/entry/zhko/11e9188b0638425d83d2595d4bb77216']",1.차별   2.차이   3.구별   4.격차
+53,人道,['[ réndào ]'],"['人', '道']","['#/entry/zhko/7f6ef11496e949fe8aef2de9bc4944a3', '#/entry/zhko/2542366336044a2f810c8fd2d69b7859']",1.人行道   2.인도   3.인도적이다   4.인간사
+54,充足,['[ chōngzú ]'],"['充', '足']","['#/entry/zhko/a24a269869b0490e9f5f2c95d8bd8e6b', '#/entry/zhko/cb3d126ce24b4a5c80a254b89ed2c12d']",
+55,结果,['[ jiéguǒ ]'],"['结', '果']","['#/entry/zhko/2d6f7691759440249db8129cac7bb891', '#/entry/zhko/d26a0a936d9b4b589215e4cc7528c190']",1.결실   2.결국   3.죽이다
+56,初级,['[ chūjí ]'],"['初', '级']","['#/entry/zhko/6125294800734464b706196259bcdf79', '#/entry/zhko/7475eaaa20e442d7a54610480af86fa9']",
+57,分明,['[ fēnmíng ]'],"['分', '明']","['#/entry/zhko/eaa8679b1f9f490cad9fee0ecb021098', '#/entry/zhko/61f798567d2e4b578ff22974ee6c7c8e']",1.뚜렷하다   2.명확하다   3.명백히   4.분명히
+58,高兴,['[ gāoxìng ]'],"['高', '兴']","['#/entry/zhko/5dbe8d665a204188b2ebd86aec41087d', '#/entry/zhko/e4595762d95a4495aaab19e470ea50ae']",1.좋아하다   2.…하기를 좋아하다   3.기쁘다
+59,缺少,['[ quēshǎo ]'],"['缺', '少']","['#/entry/zhko/0cbee412cddc472fb2561274db3ff36a', '#/entry/zhko/2bfa34bfb0f142f98019d39a79dde93a']",1.모자라다   2.결핍하다
+60,恐惧,['[ kǒngjù ]'],"['恐', '惧']","['#/entry/zhko/910b0869e7b341caa9ce5bed627142fa', '#/entry/zhko/1f25f82152ba4231b2d15554ea85bf4f']",1.겁먹다   2.황송해 하다   3.공포
+61,成分,['[ chéng‧fèn ]'],"['成', '分']","['#/entry/zhko/9e2e167d35e84052b0c22382b414d197', '#/entry/zhko/eaa8679b1f9f490cad9fee0ecb021098']",1.요소   2.계급   3.비용   4.성분
+62,着火,['[ zháo//huǒ ]'],"['着', '火']","['#/entry/zhko/7de31ec1ad4a40b6bd3785966e87dc4a', '#/entry/zhko/c896e81d2aa6490c9748b5ba02701242']",1.불나다   2.발화하다   3.착화하다
+63,分寸,['[ fēn‧cun ]'],"['分', '寸']","['#/entry/zhko/eaa8679b1f9f490cad9fee0ecb021098', '#/entry/zhko/e79254548a3f40b4b9d89218d3dbe20d']",1.적당한 정도나 범위   2.{전용} 분별   3.한계   4.한도
+64,投入,['[ tóurù ]'],"['投', '入']","['#/entry/zhko/f79ab68b479f40d68bcc28de10760286', '#/entry/zhko/b4754faacdef4028b2c80e433c9a7ba6']",1.뛰어들다   2.투입하다   3.돌입하다   4.몰입하다
+65,划分,['[ huàfēn ]'],"['划', '分']","['#/entry/zhko/39828c08965e45bb8ea67fa9c742e851', '#/entry/zhko/eaa8679b1f9f490cad9fee0ecb021098']",1.나누다   2.구분하다   3.구획하다   4.구별하다
+66,玩弄,['[ wánnòng ]'],"['玩', '弄']","['#/entry/zhko/e0ac54a037db4f64b34bcd934e8c638c', '#/entry/zhko/69f3d3f6cff24eb493b1dc7458f7e316']",1.희롱하다   2.가지고 놀다   3.쓰다
+67,元素,['[ yuánsù ]'],"['元', '素']","['#/entry/zhko/36015c918a104388a94727b20500abf9', '#/entry/zhko/573682caab0c4d7cb6a61fc837f6e4dc']",1.요소   2.화학 원소   3.원소
+68,譬如,['[ pìrú ]'],"['譬', '如']","['#/entry/zhko/1f1a79b57d494c19a7c542760197a443', '#/entry/zhko/dcfc48c8b4a34043b3027272ba395653']",1.예를 들다   2.만일   3.만약   4.가령
+69,系统,['[ xìtǒng ]'],"['系', '统']","['#/entry/zhko/ad5e207097234a0f8d7d31c40641a2f1', '#/entry/zhko/857e30dfbaac4f2182cf73724af4555b']",1.계통   2.계통적이다   3.시리즈   4.조직
+70,没关系,['[ méi guān‧xi ]'],"['没', '关', '系']","['#/entry/zhko/364170246f434d59924145c974500630', '#/entry/zhko/4c7b0e1b12174bd3b2304e84e6942f90', '#/entry/zhko/ad5e207097234a0f8d7d31c40641a2f1']",1.관계가 없다   2.괜찮다   3.문제없다   4.염려 없다
+71,总结,['[ zǒngjié ]'],"['总', '结']","['#/entry/zhko/81b140c6c67a423b8556e656722edb26', '#/entry/zhko/2d6f7691759440249db8129cac7bb891']",1.총괄   2.총화   3.총결산
+72,人家,['[ rénjiā ]'],"['人', '家']","['#/entry/zhko/7f6ef11496e949fe8aef2de9bc4944a3', '#/entry/zhko/ce5cb7b1f78c4afb838a2cad7647b1e3']",1.인가   2.남의 집   3.집안   4.여자의 장래 시댁
+73,昼夜,['[ zhòuyè ]'],"['昼', '夜']","['#/entry/zhko/1d7d5528345a4f45b4ba643d13b94bb9', '#/entry/zhko/b123502ca91f47358b77584c54f06dd7']",1.주야   2.밤낮
+74,欢迎,['[ huānyíng ]'],"['欢', '迎']","['#/entry/zhko/21fa906a9980411d8725af56b473b673', '#/entry/zhko/90c7ab987eab46cbbc3367846fa37a3b']",1.환영하다   2.매우 즐겁게 영접하다   3.즐겁게 받아들이다
+75,核心,['[ héxīn ]'],"['核', '心']","['#/entry/zhko/8d58cebd4e8143b78e4863c498b44132', '#/entry/zhko/d504e2395ba74a8abc2aaa1413196690']",1.씨   2.핵심   3.중핵
+76,但是,['[ dànshì ]'],"['但', '是']","['#/entry/zhko/15bfbcaa109b4231abb7d9c998b1a208', '#/entry/zhko/8af21dd8f9df41c19c87d9189302fa1a']",1.그러나   2.그렇지만   3.단지…이라면   4.무릇…이라면
+77,固定,['[ gùdìng ]'],"['固', '定']","['#/entry/zhko/70e20ec75e024413b4e0795e32bdf575', '#/entry/zhko/75de534fb80a4610b7b7068b4b246b0b']",1.고정된   2.일정한   3.고정하다   4.정착하다
+78,预期,['[ yùqī ]'],"['预', '期']","['#/entry/zhko/2d3f4b7511b34426b8e52a689e91e7d7', '#/entry/zhko/3a82f9811cfa414c8b8f8750d30bb0b4']",1.예기하다   2.소기
+79,灵敏,['[ língmǐn ]'],"['灵', '敏']","['#/entry/zhko/a7195ef48e724c2a86b04346840f3892', '#/entry/zhko/d035a0ba6d6a4ecbb926a88c22ab90fe']",1.반응이 빠르다   2.예민하다   3.민감하다
+80,后背,['[ hòubèi ]'],"['后', '背']","['#/entry/zhko/af881ba7028e47bd8428a8772bcfcaac', '#/entry/zhko/e545a5db08824f3aaebcac456fac801a']",1.등   2.후방   3.배후
+81,当前,['[ dāngqián ]'],"['当', '前']","['#/entry/zhko/8b6cd91e7b294be9952aca6619aa9fe7', '#/entry/zhko/0c5bd1f22a9d4f96ade70c78437fd8ec']",1.눈앞   2.직면하다
+82,重点,['[ zhòngdiǎn ]'],"['重', '点']","['#/entry/zhko/2c018f1ae84c4d348618d9cecfce75fb', '#/entry/zhko/97af851211e14e8b88d6c7291a2360c7']",1.지렛대가 물체를 떠받치는 점   2.중점   3.중요한 점   4.중시해야 할 점
+83,发烧,['[ fā//shāo ]'],"['发', '烧']","['#/entry/zhko/90dde58de4ac43d8a7b44106573447ed', '#/entry/zhko/697d718b23ce4b72a0b636a559f5594f']",1.열이 나다   2.얼굴이 붉어지다   3.발열
+84,正当,['[ zhèngdàng ]'],"['正', '当']","['#/entry/zhko/51c5decf26b24015b0c57b83c1881525', '#/entry/zhko/8b6cd91e7b294be9952aca6619aa9fe7']",1.정당하다   2.바르고 곧다
+85,付款,['[ fù//kuǎn ]'],"['付', '款']","['#/entry/zhko/eedd2a9222094dbe80fc13d3896bfe25', '#/entry/zhko/e2d977896c104481b6775553fb2857bf']",
+86,动身,['[ dòng//shēn ]'],"['动', '身']","['#/entry/zhko/c9e7b20c77a744b0bd58cdb7c85a1265', '#/entry/zhko/ee84d2fa114d4e379ebeeae80ea77645']",1.출발하다   2.여행을 떠나다
+87,天文,['[ tiānwén ]'],"['天', '文']","['#/entry/zhko/7b7de782c3d04a459a2d105e44201e7b', '#/entry/zhko/0242a433194b4f3396c707e0c95924e4']",
+88,公安局,['[ gōng’ānjú ]'],"['公', '安', '局']","['#/entry/zhko/75167c3adeb846bc8724c6293207cafd', '#/entry/zhko/9d2346b7f2a248da965c4117c8fb0976', '#/entry/zhko/37290a1d98d7400c85acbc9533fae41a']",1.공안국   2.경찰국
+89,学习,['[ xuéxí ]'],"['学', '习']","['#/entry/zhko/67ecf9ed951c48a586367d1edcf2221f', '#/entry/zhko/02c78085c6de4c159d6d6744e1198eba']",1.학습   2.공부
+90,前面儿,['[ qián‧mian(r) ]'],"['前', '面', '儿']","['#/entry/zhko/0c5bd1f22a9d4f96ade70c78437fd8ec', '#/entry/zhko/058af9e47216414db5e45ee9dc8f578f', '#/entry/zhko/2e54c2a8f93c464192be8615d6c66a0a']",1.앞   2.전면   3.앞   4.먼저
+91,留恋,['[ liúliàn ]'],"['留', '恋']","['#/entry/zhko/f68b043d0efc4c7da0ccc9005a7b2d25', '#/entry/zhko/c6b61a1bb496479887b610b58f47bdb6']",1.차마 떠나지 못하다   2.떠나기 서운해 하다   3.그리워하다
+92,打折,['[ dǎ//zhé ]'],"['打', '折']","['#/entry/zhko/88cfc034355e47288f1845fed72db7a1', '#/entry/zhko/f9a498f19835440a994cb247ea21becc']",1.할인하다   2.에누리하다   3.소홀히하다   4.이행하지 않다
+93,麻木,['[ mámù ]'],"['麻', '木']","['#/entry/zhko/67fc5b85116044e28967a794118770f7', '#/entry/zhko/36d0fd0b82af4004aecacf8469701918']",1.마비되다   2.저리다   3.둔하다   4.무감각하다
+94,调动,['[ diàodòng ]'],"['调', '动']","['#/entry/zhko/d785f35c239a4330a674a62d3f7cad51', '#/entry/zhko/c9e7b20c77a744b0bd58cdb7c85a1265']",1.옮기다   2.인사이동   3.동원하다
+95,震惊,['[ zhènjīng ]'],"['震', '惊']","['#/entry/zhko/e5edc52de8e840fbb29e4d911b4538b5', '#/entry/zhko/49f694a06b54480f88d369dcf91c1b45']",1.몹시 놀라게 하다   2.몹시 놀라다
+96,中介,['[ zhōngjiè ]'],"['中', '介']","['#/entry/zhko/7b669476c3f049e28815381afd28f19b', '#/entry/zhko/0154b037d22144e698309007af542caf']",1.중개   2.매개
+97,期待,['[ qīdài ]'],"['期', '待']","['#/entry/zhko/3a82f9811cfa414c8b8f8750d30bb0b4', '#/entry/zhko/a86f98fc8dc94d2bbaeef008512355bc']",
+98,对手,['[ duìshǒu ]'],"['对', '手']","['#/entry/zhko/cc44d0a3a30c42a997f517ffe64586e5', '#/entry/zhko/441b945bb46e461ca4df707943863949']",1.상대   2.호적수   3.호흡이 잘 맞다
+99,自动,['[ zìdòng ]'],"['自', '动']","['#/entry/zhko/f95ad8ca11ab48e6bd41f6f424759210', '#/entry/zhko/c9e7b20c77a744b0bd58cdb7c85a1265']",1.자발적으로   2.인위적인 힘을 더하지 않은   3.자동적인
+100,让步,['[ ràng//bù ]'],"['让', '步']","['#/entry/zhko/b3d970e5321d4244a7e471323a5fe576', '#/entry/zhko/50f7baec342e406e95d513e75eda06c1']",1.양보하다   2.양보
+101,局面,['[ júmiàn ]'],"['局', '面']","['#/entry/zhko/37290a1d98d7400c85acbc9533fae41a', '#/entry/zhko/058af9e47216414db5e45ee9dc8f578f']",1.국면   2.형세   3.상태   4.규모
+102,建设,['[ jiànshè ]'],"['建', '设']","['#/entry/zhko/a4941115c5194884a30cb717120497fb', '#/entry/zhko/482a39729d12423b89a114042112350a']",
+103,寂静,['[ jìjìng ]'],"['寂', '静']","['#/entry/zhko/4c9dc75234354a01a96c73dfdefdc67c', '#/entry/zhko/b0328b062f5c47fd88fbcb5bf1e519ef']",1.고요하다   2.괴괴하다   3.적막하다
+104,唯独,['[ wéidú ]'],"['唯', '独']","['#/entry/zhko/796479d5f6334b10b8230795333ca2ab', '#/entry/zhko/ec500967a7b74fe2989e2ca676841761']",1.유독   2.단지
+105,开拓,['[ kāituò ]'],"['开', '拓']","['#/entry/zhko/e6e76b146dd644b494cde29a7d4b650c', '#/entry/zhko/31dd8fcfdc3540b5bccf9017b52f3509']",1.개척하다   2.개간하다   3.채굴에 앞서 진행되는 갱도 건설 등 공정의 총칭
+106,给予,['[ gěiyǔ ]'],"['给', '予']","['#/entry/zhko/a87c1840741f438f93446d37f925276c', '#/entry/zhko/c67c99c22efb4546a5711c675ec902ca']",1.…을 주다   2.…을 보내다   3.…하게 하다   4.…하다
+107,古代,['[ gǔdài ]'],"['古', '代']","['#/entry/zhko/df37a09d450b4b568499632a3510a5ab', '#/entry/zhko/1a66fc12af234c5da597f733b90998dc']",1.고대   2.노예제 사회의 시대   3.옛날
+108,姑娘,['[ gūniáng ]'],"['姑', '娘']","['#/entry/zhko/80bc13ad74414e778f0f557d7b360016', '#/entry/zhko/877eb249ecf040d18104f6f21032a8d3']",1.고모   2.시누이
+109,预料,['[ yùliào ]'],"['预', '料']","['#/entry/zhko/2d3f4b7511b34426b8e52a689e91e7d7', '#/entry/zhko/5c3b750042c543c3be66524138147444']",1.예상   2.전망   3.예측
+110,工程师,['[ gōngchéngshī ]'],"['工', '程', '师']","['#/entry/zhko/55131bab1d1c4512b96164c4a9ae1977', '#/entry/zhko/4a213e3bbf3a4442b259259d91484e34', '#/entry/zhko/f91af14096bd424283db79cbbf0205c4']",
+111,关键,['[ guānjiàn ]'],"['关', '键']","['#/entry/zhko/4c7b0e1b12174bd3b2304e84e6942f90', '#/entry/zhko/77012b90f57e4665a6ab96a10215dfd8']",1.관건   2.열쇠   3.매우 중요한   4.절대 절명의
+112,镇定,['[ zhèndìng ]'],"['镇', '定']","['#/entry/zhko/090b34cab2a24d7c9fa0ca7d2e114153', '#/entry/zhko/75de534fb80a4610b7b7068b4b246b0b']",1.침착하다   2.진정시키다   3.평정
+113,抢救,['[ qiǎngjiù ]'],"['抢', '救']","['#/entry/zhko/3f58f879e00b43adb6f1ecaa7965638e', '#/entry/zhko/56dc217e21264654a53d3db0f3e38d88']",1.급히 구조하다   2.빨리 구원하다   3.응급 처치하다
+114,声明,['[ shēngmíng ]'],"['声', '明']","['#/entry/zhko/43d6540518534bfab5417399bbc3a56b', '#/entry/zhko/61f798567d2e4b578ff22974ee6c7c8e']",1.성명서   2.성명   3.인도 오명의 하나   4.음운·문법·훈고의 학문
+115,收缩,['[ shōusuō ]'],"['收', '缩']","['#/entry/zhko/90a462917c9342febad7c6c7885e184f', '#/entry/zhko/38dd5b5dc1594d7e85c71e1a5826ff2a']",1.수축하다   2.축소하다   3.심장 수축   4.굴곡
+116,和,['[ róu‧hé ]'],['和'],['#/entry/zhko/d031fbb41e1b4725845a70349a1b4fb3'],1.연하고 부드럽다   2.맛이 순하다   3.느낌이 부드럽다
+117,比赛,['[ bǐsài ]'],"['比', '赛']","['#/entry/zhko/37528e6a1ca749d98303132d61b2e946', '#/entry/zhko/112e68c2336a447f97ed9f51c411d28d']",
+118,传统,['[ chuántǒng ]'],"['传', '统']","['#/entry/zhko/822926654b154c119aa1de81c6d70c75', '#/entry/zhko/857e30dfbaac4f2182cf73724af4555b']",
+119,评价,['[ píngjià ]'],"['评', '价']","['#/entry/zhko/389c42fd8bcc4ba8a9b1e1ad1703853e', '#/entry/zhko/8f805b189c9c4c489ee58616e01c4549']",
+120,开放,['[ kāifàng ]'],"['开', '放']","['#/entry/zhko/e6e76b146dd644b494cde29a7d4b650c', '#/entry/zhko/812b73cfb40b494ca9edfa2b36b583ae']",1.피다   2.해제하다   3.출입·통행을 개방하다   4.공공장소를 공개하다
+121,上任,['[ shàng//rèn ]'],"['上', '任']","['#/entry/zhko/e67ed72dbab2447f84f4f4bdc586a063', '#/entry/zhko/33e1c317b5884945968a2eff07f8d28a']",1.부임하다   2.취임하다
+122,后来,['[ hòulái ]'],"['后', '来']","['#/entry/zhko/af881ba7028e47bd8428a8772bcfcaac', '#/entry/zhko/f58c7f65ac2242b491268f4a4b6a831d']",1.후   2.그 뒤에   3.뒤에 온 사람   4.뒤에 자란 사람
+123,影响,['[ yǐngxiǎng ]'],"['影', '响']","['#/entry/zhko/8106f879943b402780c3b2c15745aaed', '#/entry/zhko/ec88dffcff5a40e4af91221765a07814']",1.영향을 주다   2.영향   3.전해들은 것   4.교육적 효과
+124,体验,['[ tǐyàn ]'],"['体', '验']","['#/entry/zhko/94c4fd5180f44979914aadbcd41aa173', '#/entry/zhko/49ccc12edf644557bb4412405701e310']",
+125,仪器,['[ yíqì ]'],"['仪', '器']","['#/entry/zhko/67d02062d8fe46c0848dd1356ee5fca4', '#/entry/zhko/61fdb8290fc34cc6a744b4b13a14559c']",1.측량·제도 또는 물리 화학 실험용의 각종 기구의 총칭   2.측정 기구
+126,广大,['[ guǎngdà ]'],"['广', '大']","['#/entry/zhko/e1d81ea8020a47309839c7dcf67280af', '#/entry/zhko/a60d72975e664c489f34a8e336614bfb']",1.넓다   2.크다   3.많다
+127,机遇,['[ jīyù ]'],"['机', '遇']","['#/entry/zhko/5a70f209b1d3406482ebc7abce8b5e38', '#/entry/zhko/be3044ac0a6245d2a1d5b0c87b6beeec']",1.좋은 기회   2.찬스
+128,双方,['[ shuāngfāng ]'],"['双', '方']","['#/entry/zhko/0012003af59c4263a592c094f163971f', '#/entry/zhko/9f5bf388a498482e98b94a43fef10281']",
+129,总理,['[ zǒnglǐ ]'],"['总', '理']","['#/entry/zhko/81b140c6c67a423b8556e656722edb26', '#/entry/zhko/024d210665774d08bd6a3141e1781ab4']",1.총리   2.전체를 관리하다   3.또는 관리하는 사람
+130,凡是,['[ fánshì ]'],"['凡', '是']","['#/entry/zhko/1c4a0540c1fb47e09411a33cc3a511ab', '#/entry/zhko/8af21dd8f9df41c19c87d9189302fa1a']",1.대강   2.대체로   3.무릇   4.만약 …한다면
+131,风暴,['[ fēngbào ]'],"['风', '暴']","['#/entry/zhko/efbd03592213408f8b729c144e32a2f1', '#/entry/zhko/693d49d18fdf49beb5b5e2166b0d87dc']",1.폭풍   2.폭풍우   3.규모가 크고 기세가 맹렬한 사건이나 현상
+132,迁就,['[ qiānjiù ]'],"['迁', '就']","['#/entry/zhko/d8e273312b11492491471b48bf325f32', '#/entry/zhko/1a185928a0a240658771e4f268dba3b0']",1.옮겨가다   2.끌려가다   3.타협하다   4.俯就
+133,成天,['[ chéngtiān ]'],"['成', '天']","['#/entry/zhko/9e2e167d35e84052b0c22382b414d197', '#/entry/zhko/7b7de782c3d04a459a2d105e44201e7b']",1.종일   2.온종일
+134,鼓舞,['[ gǔwǔ ]'],"['鼓', '舞']","['#/entry/zhko/47326e318fc4432fb1ffb5c0bff88a33', '#/entry/zhko/f90a0ad42f60459d95886b81c9ec64d1']",1.고무하다   2.격려하다   3.북돋우다   4.흥분하다
+135,机密,['[ jīmì ]'],"['机', '密']","['#/entry/zhko/5a70f209b1d3406482ebc7abce8b5e38', '#/entry/zhko/f335ce0a638b4db485208b981cd231a8']",1.기밀   2.비밀을 지키다   3.기밀을 관장하는 부문·직무   4.끝나다
+136,随手儿,['[ suíshǒu(r) ]'],"['随', '手', '儿']","['#/entry/zhko/481b9a92982c4861858bc767a40039c2', '#/entry/zhko/441b945bb46e461ca4df707943863949', '#/entry/zhko/2e54c2a8f93c464192be8615d6c66a0a']",1.…하는 김에 …하다   2.즉석에서 하다   3.손이 가는 대로 하다   4.손에 지니다
+137,大体,['[ dàtǐ ]'],"['大', '体']","['#/entry/zhko/a60d72975e664c489f34a8e336614bfb', '#/entry/zhko/94c4fd5180f44979914aadbcd41aa173']",1.대체   2.전체   3.대체로
+138,零星,['[ língxīng ]'],"['零', '星']","['#/entry/zhko/fed0915b6e2943aea54207043fc90efe', '#/entry/zhko/3991a2a5344e40cbb91d4b08c3e36e26']",1.자질구레하다   2.보잘것없다   3.산발적이다   4.드문드문하다
+139,藐视,['[ miǎoshì ]'],"['藐', '视']","['#/entry/zhko/ffebb85d114c48858697e7118f18ef7c', '#/entry/zhko/b23f6d4c4f6447769cc49087276701f6']",1.경시하다   2.깔보다   3.업신여기다   4.얕보다
+140,延续,['[ yánxù ]'],"['延', '续']","['#/entry/zhko/69f2eb130f164ca5abdad579eb10dd7b', '#/entry/zhko/e4a23911cbf7442e833f6a129842c0b7']",1.계속   2.연장
+141,消极,['[ xiāojí ]'],"['消', '极']","['#/entry/zhko/8c384df1c90b47d48e2e8a352a25e5fd', '#/entry/zhko/427461eac9e04896bd3a2f987883592c']",1.소극적이다   2.부정적인
+142,风土人情,['[ fēngtǔ rénqíng ]'],"['风', '土', '人', '情']","['#/entry/zhko/efbd03592213408f8b729c144e32a2f1', '#/entry/zhko/dfa3a27a34fa473d85e2f2cc0b1a105c', '#/entry/zhko/7f6ef11496e949fe8aef2de9bc4944a3', '#/entry/zhko/7a307c868529427c827e1a4905eba9fc']",1.풍토와 인심   2.지방의 특색과 풍습
+143,堵车,['[ dǔchē ]'],"['堵', '车']","['#/entry/zhko/17c3bc2ec5884e94901ae21757e907f4', '#/entry/zhko/213d15706f6042a3b8002524f9756c6e']",
+144,市场,['[ shìchǎng ]'],"['市', '场']","['#/entry/zhko/2160098d9ee440169eb5a4089a9bb125', '#/entry/zhko/d583677eb0574c598ae1e5be99f31b25']",1.시장   2.사상이나 언론이 영향을 미치는 곳   3.환영받을 여지
+145,洽谈,['[ qiàtán ]'],"['洽', '谈']","['#/entry/zhko/f32360cb5e5b4567ba381c240bb3d98c', '#/entry/zhko/a7c7abf264ec4a6eb8518760b0ce68c6']",1.상담   2.교섭   3.협의
+146,学校,['[ xuéxiào ]'],"['学', '校']","['#/entry/zhko/67ecf9ed951c48a586367d1edcf2221f', '#/entry/zhko/5ef6ac81d2df439f9b0076936e82d6db']",
+147,主流,['[ zhǔliú ]'],"['主', '流']","['#/entry/zhko/0599518701e14c7fae5754b12f998396', '#/entry/zhko/7b2fe6534f2f4e1baded4bc28650f6af']",1.주류   2.주요 추세   3.주된 경향
+148,股东,['[ gǔdōng ]'],"['股', '东']","['#/entry/zhko/4100215ecd5643c4be678d664729c0ba', '#/entry/zhko/d1d2acb5d3944a2497b4b30640255c8d']",1.주주   2.출자자
+149,原理,['[ yuánlǐ ]'],"['原', '理']","['#/entry/zhko/aa1ac6b5e8674eedbb6aa8ff15ed32b4', '#/entry/zhko/024d210665774d08bd6a3141e1781ab4']",
+150,固然,['[ gùrán ]'],"['固', '然']","['#/entry/zhko/70e20ec75e024413b4e0795e32bdf575', '#/entry/zhko/71fa4748a8e047e08690fe2af5fcc4e4']",1.물론 …지만   2.물론 …거니와
+151,居然,['[ jūrán ]'],"['居', '然']","['#/entry/zhko/780cc45211c447dda87215206bf8c368', '#/entry/zhko/71fa4748a8e047e08690fe2af5fcc4e4']",1.뜻밖에   2.생각 밖에   3.확연히   4.확실히
+152,宁可,['[ nìngkě ]'],"['宁', '可']","['#/entry/zhko/d1b9e09a818440578b153a30c213655e', '#/entry/zhko/6339d6947a904ab6b1afdf285dcbeac8']",1.차라리   2.오히려
+153,主导,['[ zhǔdǎo ]'],"['主', '导']","['#/entry/zhko/0599518701e14c7fae5754b12f998396', '#/entry/zhko/e1c90d02211a45358ecbd5f51cc207d1']",1.주도하다   2.주도적인 것
+154,神气,['[ shén‧qì ]'],"['神', '气']","['#/entry/zhko/de3c274e10ac4c0e81fd576372bdf393', '#/entry/zhko/0bf16093641c469998407bba451994fa']",1.표정   2.의기양양함   3.일의 상황   4.기운이 있다
+155,别人,['[ biérén ]'],"['别', '人']","['#/entry/zhko/11e9188b0638425d83d2595d4bb77216', '#/entry/zhko/7f6ef11496e949fe8aef2de9bc4944a3']",1.다른 사람   2.여느 사람
+156,请帖,['[ qǐngtiě ]'],"['请', '帖']","['#/entry/zhko/2256273ca6ff426a991405f57eae19fc', '#/entry/zhko/31a02ae19bbe4e77931b66ef68c1b11d']",1.초대장   2.초청장
+157,界限,['[ jièxiàn ]'],"['界', '限']","['#/entry/zhko/de3be65e00a346319e7bae57e71b05bc', '#/entry/zhko/ba514ece77ea41e08d5bb9c10ace8fc7']",1.한계   2.끝   3.격
+158,噪音,['[ zàoyīn ]'],"['噪', '音']","['#/entry/zhko/b26c9f1beab34d618990edd96ee5c73e', '#/entry/zhko/77107a7601774d1b9dbab1c794d34d63']",1.조음   2.비악음   3.소음   4.잡음
+159,逐年,['[ zhúnián ]'],"['逐', '年']","['#/entry/zhko/8dbdab7f8ef24c2482c462d315dfebbe', '#/entry/zhko/7e65b2b7276c485b91c3f47f52abbfd2']",1.해마다   2.매년
+160,言论,['[ yánlùn ]'],"['言', '论']","['#/entry/zhko/88bc954917b44d42ba58b9a30981a2dc', '#/entry/zhko/6864c7f0674e4fca9dd47f1f833d7a59']",
+161,胃口,['[ wèi‧kǒu ]'],"['胃', '口']","['#/entry/zhko/c2672faba56c403a96a365caa394e536', '#/entry/zhko/b5c5253a468b416aaea8cb70ad81ce43']",1.위   2.식욕   3.구미
+162,单元,['[ dānyuán ]'],"['单', '元']","['#/entry/zhko/488221bbeec342ae95a826e896dfaa5c', '#/entry/zhko/36015c918a104388a94727b20500abf9']",1.단일한 근원   2.단원   3.현관   4.독채
+163,可恶,['[ kěwù ]'],"['可', '恶']","['#/entry/zhko/6339d6947a904ab6b1afdf285dcbeac8', '#/entry/zhko/9fbf898e63344a6782ec37efe9ed2976']",1.얄밉다   2.밉살스럽다   3.가증스럽다   4.괘씸하다
+164,现象,['[ xiànxiàng ]'],"['现', '象']","['#/entry/zhko/ba7e27d5a8234852b479177b02318e02', '#/entry/zhko/2ffff77ed102421e88338b339321ff67']",1.현상   2.관찰할 수 있는 사물의 현상
+165,情形,['[ qíng‧xing ]'],"['情', '形']","['#/entry/zhko/7a307c868529427c827e1a4905eba9fc', '#/entry/zhko/4f7adae178fb49d68c04a766f09206f6']",1.일의 상황   2.정황   3.형편
+166,鸦雀无声,['[ yā què wú shēng ]'],"['鸦', '雀', '无', '声']","['#/entry/zhko/7b93526bd86f4f36bc514627a8d290b5', '#/entry/zhko/429ccb172b8f4e7baaee5a633ddf1b80', '#/entry/zhko/205b7edfb0b649838d817932f298cc0a', '#/entry/zhko/43d6540518534bfab5417399bbc3a56b']",
+167,发达,['[ fādá ]'],"['发', '达']","['#/entry/zhko/90dde58de4ac43d8a7b44106573447ed', '#/entry/zhko/9a5030a0f0e14d9d864583d81cb3f01e']",1.발달하다   2.발전시키다   3.번성하다   4.출세하다
+168,征求,['[ zhēngqiú ]'],"['征', '求']","['#/entry/zhko/adb591829ff94fd9a5c9b044958bd3a3', '#/entry/zhko/131916c3fe77442bba61d71fc7f2fab0']",1.널리 구하다   2.모집하다
+169,以至,['[ yǐzhì ]'],"['以', '至']","['#/entry/zhko/15b64780134546d8b6ad6b9d394c4adc', '#/entry/zhko/3b042ba783d446ba8e2a13887a52916e']",1.…까지   2.以及(2)   3.…로 하여
+170,手机,['[ shǒujī ]'],"['手', '机']","['#/entry/zhko/441b945bb46e461ca4df707943863949', '#/entry/zhko/5a70f209b1d3406482ebc7abce8b5e38']",1.휴대폰   2.핸드폰
+171,选择,['[ xuǎnzé ]'],"['选', '择']","['#/entry/zhko/6def309cd0664d2e822811ee6ccd42fe', '#/entry/zhko/533b81a102ee474ea07a0d52f36122e0']",1.선택하다   2.셀렉팅   3.선택   4.선택 설비
+172,临床,['[ línchuáng ]'],"['临', '床']","['#/entry/zhko/97608f067fa0414d8f237714d013ccc3', '#/entry/zhko/11d6191e3eda401f92888c79f78086e8']",
+173,本能,['[ běnnéng ]'],"['本', '能']","['#/entry/zhko/66a63792edea4caea54c9fc9e3d168e9', '#/entry/zhko/1e586ecf22a9432885968e1c4cd9f183']",
+174,兴奋,['[ xīngfèn ]'],"['兴', '奋']","['#/entry/zhko/e4595762d95a4495aaab19e470ea50ae', '#/entry/zhko/12fe8f0f5cd14127880be4837d0a75f4']",1.흥분하다   2.흥분   3.흥분시키다
+175,正在,['[ zhèngzài ]'],"['正', '在']","['#/entry/zhko/51c5decf26b24015b0c57b83c1881525', '#/entry/zhko/c2e396cc63d0460dbb2cfc0a315b0cf1']",1.마침   2.바야흐로
+176,合理,['[ hélǐ ]'],"['合', '理']","['#/entry/zhko/61727e18099d4647984e17b3dc242dfa', '#/entry/zhko/024d210665774d08bd6a3141e1781ab4']",1.도리에 맞다   2.합리적이다
+177,没有,['[ méi‧yǒu ]'],"['没', '有']","['#/entry/zhko/364170246f434d59924145c974500630', '#/entry/zhko/028a240cec1246f68247670686d750c5']",1.가지고 있지 않다   2.없다   3.…만 못하다   4.…이 못 되다
+178,对面,['[ duìmiàn ]'],"['对', '面']","['#/entry/zhko/cc44d0a3a30c42a997f517ffe64586e5', '#/entry/zhko/058af9e47216414db5e45ee9dc8f578f']",1.반대편   2.바로 앞   3.맞대면하다
+179,作者,['[ zuòzhě ]'],"['作', '者']","['#/entry/zhko/3c728e6d15284391bdaf7f48b432c2f4', '#/entry/zhko/0e5d64a9847741f693b41c17452f3e9e']",1.작자   2.필자
+180,罕见,['[ hǎnjiàn ]'],"['罕', '见']","['#/entry/zhko/7a02188b45ae45f8a823d3fa3a9363c8', '#/entry/zhko/3588c425d7b547718e8bc0d41cccbad7']",1.보기 드물다   2.희한하다
+181,审理,['[ shěnlǐ ]'],"['审', '理']","['#/entry/zhko/cbaac46e90254a2aab0451b941fb9d08', '#/entry/zhko/024d210665774d08bd6a3141e1781ab4']",1.심리   2.심사 처리
+182,录取,['[ lùqǔ ]'],"['录', '取']","['#/entry/zhko/62849cc3a6864dcaab6446a05431a43a', '#/entry/zhko/623db085149549c8bd8008855bc266c9']",1.채용하다   2.합격시키다   3.뽑다
+183,天生,['[ tiānshēng ]'],"['天', '生']","['#/entry/zhko/7b7de782c3d04a459a2d105e44201e7b', '#/entry/zhko/df5ba42276cf49968bc88517db7d146f']",1.천성적   2.선천적   3.자연적   4.자연히 생성되다
+184,家常,['[ jiācháng ]'],"['家', '常']","['#/entry/zhko/ce5cb7b1f78c4afb838a2cad7647b1e3', '#/entry/zhko/1e2aa193737a48d9a4df14ea3658a414']",1.가정의 일상 생활   2.일상적인 일   3.家常饼
+185,彼此,['[ bǐcǐ ]'],"['彼', '此']","['#/entry/zhko/565d908812d8448991173820222c86c4', '#/entry/zhko/1b72f6afa6bb4616ba2b1a078de0d8a9']",1.피차   2.상호   3.쌍방   4.피차일반입니다
+186,激情,['[ jīqíng ]'],"['激', '情']","['#/entry/zhko/2bcedcb9557d44d2b7d636ea6fc6aae8', '#/entry/zhko/7a307c868529427c827e1a4905eba9fc']",1.격정   2.열정   3.정열
+187,名次,['[ míngcì ]'],"['名', '次']","['#/entry/zhko/8de683efdccc42c48bab335061bd9e2b', '#/entry/zhko/f3af14b064ce47fba9476c1e1d70fb08']",1.이름 순서   2.석차   3.서열
+188,截止,['[ jiézhǐ ]'],"['截', '止']","['#/entry/zhko/ff161b4e3008418fa6cbbbf957d22519', '#/entry/zhko/db159f97f17c4fe6874d182871d86f2d']",1.마감하다   2.일단락 짓다
+189,手法,['[ shǒufǎ ]'],"['手', '法']","['#/entry/zhko/441b945bb46e461ca4df707943863949', '#/entry/zhko/22609335f00742358b45cbea811d47d6']",1.기교   2.기법   3.술수   4.수작
+190,阶段,['[ jiēduàn ]'],"['阶', '段']","['#/entry/zhko/699eb754d85f4896a9591da3303fc0c6', '#/entry/zhko/419773e4abdc4e3e95f56e876b169eb3']",1.단계   2.계단   3.수평 갱도
+191,调料,['[ tiáoliào ]'],"['调', '料']","['#/entry/zhko/d785f35c239a4330a674a62d3f7cad51', '#/entry/zhko/5c3b750042c543c3be66524138147444']",
+192,光芒,['[ guāngmáng ]'],"['光', '芒']","['#/entry/zhko/8baeb4ec566c4b31ba1e894df2dcffda', '#/entry/zhko/f49d87d1c17347c49785ce16e1fcdf9e']",1.광망   2.빛발   3.빛
+193,雪上加霜,['[ xuě shàng jiā shuāng ]'],"['雪', '上', '加', '霜']","['#/entry/zhko/a67a7b42dc394275997cce3adb9b12b1', '#/entry/zhko/e67ed72dbab2447f84f4f4bdc586a063', '#/entry/zhko/e5e6a0f59d574177ae710ef8a1a49bd4', '#/entry/zhko/b253a266196a4efe975c5365f72f4682']",1.눈 위에 서리가 내리다; 엎친데 덮치다   2.설상가상이다
+194,分手,['[ fēn//shǒu ]'],"['分', '手']","['#/entry/zhko/eaa8679b1f9f490cad9fee0ecb021098', '#/entry/zhko/441b945bb46e461ca4df707943863949']",1.헤어지다   2.이별하다   3.관계를 끊다
+195,减少,['[ jiǎnshǎo ]'],"['减', '少']","['#/entry/zhko/6595c4dba66e4c5da5bbf11d22844675', '#/entry/zhko/2bfa34bfb0f142f98019d39a79dde93a']",1.적게 하다   2.적어지다   3.감소하다   4.덜다
+196,美丽,['[ měilì ]'],"['美', '丽']","['#/entry/zhko/8f0a9e23dcc74e058fe36fe23133038a', '#/entry/zhko/bc3baae806704f90bc0548ce339392fd']",1.미려하다   2.아름답다
+197,火箭,['[ huǒjiàn ]'],"['火', '箭']","['#/entry/zhko/c896e81d2aa6490c9748b5ba02701242', '#/entry/zhko/531347db8a9947a4932bae4956548597']",1.로켓   2.화전   3.불화살
+198,无数,['[ wúshù ]'],"['无', '数']","['#/entry/zhko/205b7edfb0b649838d817932f298cc0a', '#/entry/zhko/a3914fdac6c143a382cc05834e00ce9d']",1.무수하다   2.잘 모르다   3.정수가 없다
+199,纪录,['[ jìlù ]'],"['纪', '录']","['#/entry/zhko/ef52056bb2a04ba1a0232125b6528568', '#/entry/zhko/62849cc3a6864dcaab6446a05431a43a']",1.최고 기록   2.범죄 또는 불량 행위 기록   3.기록하다
+200,空白,['[ kòngbái ]'],"['空', '白']","['#/entry/zhko/42d0f82ed6274f6f92c8071da8b6e046', '#/entry/zhko/56efbdf9adc54a1d94bfcd1c42069e8e']",1.공백   2.여백
+201,文献,['[ wénxiàn ]'],"['文', '献']","['#/entry/zhko/0242a433194b4f3396c707e0c95924e4', '#/entry/zhko/0445e960e593465097a1b8e8553adc6e']",
+202,因此,['[ yīncǐ ]'],"['因', '此']","['#/entry/zhko/5ccccda74ef94af0ba18db5412957979', '#/entry/zhko/1b72f6afa6bb4616ba2b1a078de0d8a9']",1.그래서   2.그러므로   3.이 때문에
+203,善于,['[ shànyú ]'],"['善', '于']","['#/entry/zhko/2dd492a2e1f646c7a715a207439c055e', '#/entry/zhko/3ffe9f569b8e4f98b5ba79f1e05e1c76']",1.…에 능숙하다   2.…를 잘하다   3.능숙하게   4.교묘하게
+204,以来,['[ yǐlái ]'],"['以', '来']","['#/entry/zhko/15b64780134546d8b6ad6b9d394c4adc', '#/entry/zhko/f58c7f65ac2242b491268f4a4b6a831d']",1.이래   2.동안   3.남짓
+205,常识,['[ chángshí ]'],"['常', '识']","['#/entry/zhko/1e2aa193737a48d9a4df14ea3658a414', '#/entry/zhko/57a977bfde6845f78f0c66927ac8ac60']",
+206,建立,['[ jiànlì ]'],"['建', '立']","['#/entry/zhko/a4941115c5194884a30cb717120497fb', '#/entry/zhko/db5dbb1f328949578f5195a2d0d77d17']",1.건립하다   2.맺다   3.제정하다
+207,厕所,['[ cèsuǒ ]'],"['厕', '所']","['#/entry/zhko/df5be2bc33744677889dd38edb09e93f', '#/entry/zhko/41ea7c587b2841758301c19885972a8d']",
+208,关闭,['[ guānbì ]'],"['关', '闭']","['#/entry/zhko/4c7b0e1b12174bd3b2304e84e6942f90', '#/entry/zhko/cd6111226d494a72926d00a8c15458b9']",1.닫다   2.파산하다   3.문을 닫다
+209,丢人,['[ diū//rén ]'],"['丢', '人']","['#/entry/zhko/d9196ff7adf14c30b37147fc4fb88059', '#/entry/zhko/7f6ef11496e949fe8aef2de9bc4944a3']",1.체면이 깎이다   2.망신하다   3.창피 당하다
+210,随时,['[ suíshí ]'],"['随', '时']","['#/entry/zhko/481b9a92982c4861858bc767a40039c2', '#/entry/zhko/35d9a75c775941d6b00f2c0abf0299d8']",1.수시   2.언제나   3.그 즉시   4.제때
+211,论文,['[ lùnwén ]'],"['论', '文']","['#/entry/zhko/6864c7f0674e4fca9dd47f1f833d7a59', '#/entry/zhko/0242a433194b4f3396c707e0c95924e4']",
+212,活该,['[ huógāi ]'],"['活', '该']","['#/entry/zhko/144431af99874b25a272d3b6a6f8fde6', '#/entry/zhko/bfea12ec699749f0bda2d778b0c3eb61']",1.당연하다   2.그래 싸다   3.마땅히 …해야 한다   4.마땅하다
+213,俯视,['[ fǔshì ]'],"['俯', '视']","['#/entry/zhko/766f73ae7d3541849f6595a154f7cf2f', '#/entry/zhko/b23f6d4c4f6447769cc49087276701f6']",
+214,学生,['[ xué‧sheng ]'],"['学', '生']","['#/entry/zhko/67ecf9ed951c48a586367d1edcf2221f', '#/entry/zhko/df5ba42276cf49968bc88517db7d146f']",1.학생   2.学徒(1)   3.남자 어린이
+215,抓紧,['[ zhuā//jǐn ]'],"['抓', '紧']","['#/entry/zhko/a01d3db97ee64cd790dbe3e9558ef5f0', '#/entry/zhko/a5c58fcdb948489c83a4de85a435f093']",1.꽉 쥐다   2.단단히 잡다   3.다잡다   4.꽉 틀어쥐다
+216,石油,['[ shíyóu ]'],"['石', '油']","['#/entry/zhko/82ef2393f24745bc8191924ea83c1d00', '#/entry/zhko/6953f33694814e0b9a56bc91c65a0cd2']",
+217,归根到底,['[ guī gēn dào dǐ ]'],"['归', '根', '到', '底']","['#/entry/zhko/a7697d2bae85437c8a39e508cff90978', '#/entry/zhko/f760dd0dacd144ef871ed080e922f5fa', '#/entry/zhko/764641fe060d415480e9a70505cf058b', '#/entry/zhko/0f8b604e8b5e41e18f1bf980bc5a7c6a']",
+218,真相,['[ zhēnxiàng ]'],"['真', '相']","['#/entry/zhko/5c17bdba61194d978c6e1411152ccbca', '#/entry/zhko/5590002e3a834598adaa02b4c9fc6832']",
+219,振动,['[ zhèndòng ]'],"['振', '动']","['#/entry/zhko/b94dcf09d7d94676a72fa73fdb4c0f17', '#/entry/zhko/c9e7b20c77a744b0bd58cdb7c85a1265']",
+220,卫生间,['[ wèishēngjiān ]'],"['卫', '生', '间']","['#/entry/zhko/c92d6e80fb3d418f87fb7a60be1bd73f', '#/entry/zhko/df5ba42276cf49968bc88517db7d146f', '#/entry/zhko/5d445144cd3b4ecca633d58e46a05bdf']",1.화장실·세면장 등의 총칭   2.여관·호텔·주택 등에서 ‘卫生设备’가 달려 있는 방
+221,具体,['[ jùtǐ ]'],"['具', '体']","['#/entry/zhko/607e3493526d40c1ab9ae6ab7651326a', '#/entry/zhko/94c4fd5180f44979914aadbcd41aa173']",1.구체적이다   2.특정의   3.구체화하다
+222,原谅,['[ yuánliàng ]'],"['原', '谅']","['#/entry/zhko/aa1ac6b5e8674eedbb6aa8ff15ed32b4', '#/entry/zhko/171c7c8a49b84fca98a732c26375db71']",1.양해하다   2.용서하다   3.용인하다
+223,生日,['[ shēng‧rì ]'],"['生', '日']","['#/entry/zhko/df5ba42276cf49968bc88517db7d146f', '#/entry/zhko/578aeeec1ed949d193d0549fa00bad7f']",1.생일   2.생신   3.살아 있는 날
+224,情景,['[ qíngjǐng ]'],"['情', '景']","['#/entry/zhko/7a307c868529427c827e1a4905eba9fc', '#/entry/zhko/c324deb456c24169b0114d2843065fd5']",1.광경   2.정경   3.장면   4.감정과 경치
+225,空气,['[ kōngqì ]'],"['空', '气']","['#/entry/zhko/42d0f82ed6274f6f92c8071da8b6e046', '#/entry/zhko/0bf16093641c469998407bba451994fa']",1.공기   2.여론   3.분위기
+226,里程碑,['[ lǐchéngbēi ]'],"['里', '程', '碑']","['#/entry/zhko/e42acc378a9c4c56859e399afe04423a', '#/entry/zhko/4a213e3bbf3a4442b259259d91484e34', '#/entry/zhko/e90f5a723f314ad4868671521cd85c5f']",1.이정표   2.역사상 이정표가 되는 사건   3.획기적인 사건
+227,刻苦,['[ kèkǔ ]'],"['刻', '苦']","['#/entry/zhko/01881747f10c4107884450cea7d622c8', '#/entry/zhko/31840714ad9846d99b8ff600340d1d64']",1.고생을 참아 내다   2.몹시 애를 쓰다   3.검소하다
+228,与日俱增,['[ yǔ rì jù zēng ]'],"['与', '日', '俱', '增']","['#/entry/zhko/758032188a624e7e94c9d6fcb2ebdb1e', '#/entry/zhko/578aeeec1ed949d193d0549fa00bad7f', '#/entry/zhko/8828b5f348cf46e39ae3cec4a758df33', '#/entry/zhko/9ad6302445e9430097ecfaa22d5fbd15']",1.날이 갈수록 번창하다   2.날로 많아지다
+229,至于,['[ zhìyú ]'],"['至', '于']","['#/entry/zhko/3b042ba783d446ba8e2a13887a52916e', '#/entry/zhko/3ffe9f569b8e4f98b5ba79f1e05e1c76']",1.…의 정도에 이르다   2.…으로 말하면   3.…때에 이르러
+230,人类,['[ rénlèi ]'],"['人', '类']","['#/entry/zhko/7f6ef11496e949fe8aef2de9bc4944a3', '#/entry/zhko/468fc8278e214f7db3203f1281944bc7']",
+231,确保,['[ quèbǎo ]'],"['确', '保']","['#/entry/zhko/89d8cc13be09497cb4dc61a0f80c1c6d', '#/entry/zhko/1df0943da1eb40b68943979f8889e72c']",1.확보하다   2.확실히 보증하다   3.확보
+232,被动,['[ bèidòng ]'],"['被', '动']","['#/entry/zhko/7641224adf8f4949b234b6ced8a53b77', '#/entry/zhko/c9e7b20c77a744b0bd58cdb7c85a1265']",1.피동적이다   2.수동적이다   3.피동   4.수동
+233,地区,['[ dìqū ]'],"['地', '区']","['#/entry/zhko/4f9861180e054d688369818f489ace64', '#/entry/zhko/3af767b8303d4e54bf806099f4f0abd6']",1.지역   2.독립하지 못한 지역   3.지구
+234,要求,['[ yāoqiú ]'],"['要', '求']","['#/entry/zhko/82ba79159d5c49d8adb5d222e35beee6', '#/entry/zhko/131916c3fe77442bba61d71fc7f2fab0']",1.요구   2.요망
+235,谈判,['[ tánpàn ]'],"['谈', '判']","['#/entry/zhko/a7c7abf264ec4a6eb8518760b0ce68c6', '#/entry/zhko/ac86c231ed8b48edb0d6013c568215f4']",1.담판   2.회담   3.교섭   4.협상
+236,迷信,['[ míxìn ]'],"['迷', '信']","['#/entry/zhko/df4cdc4ddcdb410e9843ac675e7e17a1', '#/entry/zhko/9065e8ed050340ee8e2e67b7366cae3e']",1.미신   2.맹목적인 신봉·숭배   3.맹신하다   4.덮어놓고 믿다
+237,兴旺,['[ xīngwàng ]'],"['兴', '旺']","['#/entry/zhko/e4595762d95a4495aaab19e470ea50ae', '#/entry/zhko/244c55e2eb8a4e0ebc0887817cd73f66']",1.번창하다   2.왕성하다   3.흥성하다
+238,进行,['[ jìnxíng ]'],"['进', '行']","['#/entry/zhko/f7d3c7a2f2d04134895ce5db1f52d9b6', '#/entry/zhko/d1e4bfe1b2974a07809257483076f6a8']",1.진행하다   2.하다   3.행진하다   4.전진하다
+239,最好,['[ zuìhǎo ]'],"['最', '好']","['#/entry/zhko/bac9e809a65a47e9bda7402670fc5690', '#/entry/zhko/2f2072ca48fe4153b63f6d7d8c664b09']",1.가장 좋다   2.제일 좋다   3.바람직한 것은   4.좋기는
+240,利益,['[ lìyì ]'],"['利', '益']","['#/entry/zhko/2600c66d0bd24618a37827decfbec984', '#/entry/zhko/a4728f097cee4792a9a5b36f528e8e05']",1.이익   2.이득
+241,如今,['[ rújīn ]'],"['如', '今']","['#/entry/zhko/dcfc48c8b4a34043b3027272ba395653', '#/entry/zhko/04d62a12f6fe479083bf798d6beaf830']",1.지금   2.이제   3.오늘날
+242,难怪,['[ nánguài ]'],"['难', '怪']","['#/entry/zhko/cc12d9cd41164b228c255b8ff205e1c1', '#/entry/zhko/6546e5e7d07743c9889c005854bec45a']",1.과연   2.어쩐지   3.당연하다   4.이상할 것 없다
+243,侥幸,['[ jiǎoxìng ]'],"['侥', '幸']","['#/entry/zhko/d5f8bdd188fa4368819ccbcbd333420e', '#/entry/zhko/e62f945d475d44cd82298007148fc1ba']",1.운이 좋다   2.요행   3.요행히
+244,距离,['[ jùlí ]'],"['距', '离']","['#/entry/zhko/1bd0fe6dccfd4733887bbcd5e91990a7', '#/entry/zhko/29512d0631e0460ba7c0910642863f61']",1.떨어지다   2.사이를 두다   3.거리   4.간격
+245,皇后,['[ huánghòu ]'],"['皇', '后']","['#/entry/zhko/3c6dd801212a4bdfa8ca269d93fc5d2b', '#/entry/zhko/af881ba7028e47bd8428a8772bcfcaac']",
+246,盲目,['[ mángmù ]'],"['盲', '目']","['#/entry/zhko/e8752077bdae4522b05a91edba03b2e7', '#/entry/zhko/edce84afba48409489f4e4e7608a93a6']",1.맹목적   2.잘못된 인식
+247,交涉,['[ jiāoshè ]'],"['交', '涉']","['#/entry/zhko/5c8b1a9e6d474c23a71b4bfbb0271e75', '#/entry/zhko/e0dfd6e61cd1493bb1eed66d27f67656']",1.관련   2.관계   3.교섭   4.절충
+248,开阔,['[ kāikuò ]'],"['开', '阔']","['#/entry/zhko/e6e76b146dd644b494cde29a7d4b650c', '#/entry/zhko/93e36419f0ef4da588b9fe6e035f3d11']",1.넓다   2.탁 트이다   3.방대하다   4.넓히다
+249,特长,['[ tècháng ]'],"['特', '长']","['#/entry/zhko/7d652402735e4dbaacc9bad35873495b', '#/entry/zhko/8f01eb96acd54bbdab9e0092fe602537']",1.특장   2.특색   3.장점   4.장기
+250,主持,['[ zhǔchí ]'],"['主', '持']","['#/entry/zhko/0599518701e14c7fae5754b12f998396', '#/entry/zhko/0f117cc771f042d2a45246f8c4f3aab4']",1.주관하다   2.주장하다   3.주지를 맡다
+251,外行,['[ wàiháng ]'],"['外', '行']","['#/entry/zhko/c5c1d7bba3a446c4adde97229edc2614', '#/entry/zhko/d1e4bfe1b2974a07809257483076f6a8']",1.문외한이다   2.문외한   3.동업자 이외의 사람
+252,相关,['[ xiāngguān ]'],"['相', '关']","['#/entry/zhko/5590002e3a834598adaa02b4c9fc6832', '#/entry/zhko/4c7b0e1b12174bd3b2304e84e6942f90']",1.상관되다   2.관련되다   3.관계하다
+253,取消,['[ qǔxiāo ]'],"['取', '消']","['#/entry/zhko/623db085149549c8bd8008855bc266c9', '#/entry/zhko/8c384df1c90b47d48e2e8a352a25e5fd']",1.취소하다   2.제거하다   3.없애다
+254,流露,['[ liúlù ]'],"['流', '露']","['#/entry/zhko/7b2fe6534f2f4e1baded4bc28650f6af', '#/entry/zhko/6d2f1de001bf45f58c4d7b25183cda9b']",1.무의식중에 나타내다   2.숨김없이 사실대로 나타내다
+255,周末,['[ zhōumò ]'],"['周', '末']","['#/entry/zhko/9b13422c6ea946b784ff57644b112f74', '#/entry/zhko/94fb4e40a46047018346ec8536386740']",
+256,特意,['[ tèyì ]'],"['特', '意']","['#/entry/zhko/7d652402735e4dbaacc9bad35873495b', '#/entry/zhko/00087d1e231a40dbbfb2843b5f0b9867']",1.특별히   2.일부러
+257,不仅,['[ bùjǐn ]'],"['不', '仅']","['#/entry/zhko/8f5c09bedf324bc49d1b4f4e590ff8e8', '#/entry/zhko/b3c1e878a8e6420ab201940140e92f87']",1.…만은 아니다   2.…일 뿐만 아니라
+258,曾经,['[ céngjīng ]'],"['曾', '经']","['#/entry/zhko/62010e9ce0ef4587a0342f0309e1a159', '#/entry/zhko/5b8d20d9d11d4e11bf0e5efb3424644c']",1.일찍이   2.이전에   3.이미   4.벌써
+259,意识,['[ yì‧shí ]'],"['意', '识']","['#/entry/zhko/00087d1e231a40dbbfb2843b5f0b9867', '#/entry/zhko/57a977bfde6845f78f0c66927ac8ac60']",1.의식   2.의식하다   3.깨닫다
+260,公正,['[ gōngzhèng ]'],"['公', '正']","['#/entry/zhko/75167c3adeb846bc8724c6293207cafd', '#/entry/zhko/51c5decf26b24015b0c57b83c1881525']",1.공정하다   2.공평하다   3.공명정대하다
+261,无知,['[ wúzhī ]'],"['无', '知']","['#/entry/zhko/205b7edfb0b649838d817932f298cc0a', '#/entry/zhko/a42f1fcb4bc64bfcbc31c87aad7a1417']",1.무지하다   2.아는 것이 없다   3.사리에 어둡다
+262,照耀,['[ zhàoyào ]'],"['照', '耀']","['#/entry/zhko/7e7dd64574084573a1cc4a6cc0ee7222', '#/entry/zhko/b0424277eb304097a7c9cd340630cb42']",1.밝게 비추다   2.눈부시게 비치다
+263,乐意,['[ lèyì ]'],"['乐', '意']","['#/entry/zhko/f5a53865d01e4932a4c6e78597611363', '#/entry/zhko/00087d1e231a40dbbfb2843b5f0b9867']",1.즐겁게 여기다   2.…하기 원하다   3.만족해하다   4.좋아하다
+264,单调,['[ dāndiào ]'],"['单', '调']","['#/entry/zhko/488221bbeec342ae95a826e896dfaa5c', '#/entry/zhko/d785f35c239a4330a674a62d3f7cad51']",1.단순한 가락   2.단조롭다   3.일방적인 업무 조정
+265,排列,['[ páiliè ]'],"['排', '列']","['#/entry/zhko/ccdda8d690ba47c783254d8a55464240', '#/entry/zhko/398288c5740e4a3f9075ee8a71beffd7']",1.배열하다   2.순열   3.정렬
+266,必然,['[ bìrán ]'],"['必', '然']","['#/entry/zhko/8a6caa04c41d4d4e82d98c8d47a90ed4', '#/entry/zhko/71fa4748a8e047e08690fe2af5fcc4e4']",1.필연적이다   2.반드시   3.필연
+267,从此,['[ cóngcǐ ]'],"['从', '此']","['#/entry/zhko/0610246819234d0187a77b14b54b8abd', '#/entry/zhko/1b72f6afa6bb4616ba2b1a078de0d8a9']",1.이제부터   2.지금부터   3.여기부터   4.이곳부터
+268,俗话儿,['[ súhuà(r) ]'],"['俗', '话', '儿']","['#/entry/zhko/eba540718b90430ba7c975d8c4f3bac8', '#/entry/zhko/4869e529f7114dac851c1e1f269004e7', '#/entry/zhko/2e54c2a8f93c464192be8615d6c66a0a']",1.속어   2.속담
+269,气功,['[ qìgōng ]'],"['气', '功']","['#/entry/zhko/0bf16093641c469998407bba451994fa', '#/entry/zhko/5142f7fc197c4d13a0aae0c037ab3fd4']",1.기공   2.단전호흡의 다른 이름
+270,津津有味,['[ jīn jīn yǒu wèi ]'],"['津', '津', '有', '味']","['#/entry/zhko/8cf9dea7883440b89406efbfc0119ed2', '#/entry/zhko/8cf9dea7883440b89406efbfc0119ed2', '#/entry/zhko/028a240cec1246f68247670686d750c5', '#/entry/zhko/d347b22a7f034387a304d24f21ca92e9']",1.흥미진진하다   2.아주 맛있다
+271,发誓,['[ fā//shì ]'],"['发', '誓']","['#/entry/zhko/90dde58de4ac43d8a7b44106573447ed', '#/entry/zhko/912577e6456f414e830812ed23531aa3']",
+272,确实,['[ quèshí ]'],"['确', '实']","['#/entry/zhko/89d8cc13be09497cb4dc61a0f80c1c6d', '#/entry/zhko/894f62974f8a4526bb8a239ff9162f02']",1.확실하다   2.확실히   3.정말로
+273,字幕,['[ zìmù ]'],"['字', '幕']","['#/entry/zhko/25cfb7fdbcd04b5abf36bc9956956966', '#/entry/zhko/aaf890e4d046434baecf3bbd118a5633']",
+274,冷淡,['[ lěngdàn ]'],"['冷', '淡']","['#/entry/zhko/43f79a90d8104e7784f4bd7dd7403ab5', '#/entry/zhko/912351bb1f924653a82f9d97848c6394']",1.쓸쓸하다   2.쌀쌀하다   3.냉대하다
+275,行人,['[ xíngrén ]'],"['行', '人']","['#/entry/zhko/d1e4bfe1b2974a07809257483076f6a8', '#/entry/zhko/7f6ef11496e949fe8aef2de9bc4944a3']",1.통행인   2.여행자   3.행인   4.사자를 통틀어 일컫는 말
+276,想方设法,['[ xiǎng fāng shè fǎ ]'],"['想', '方', '设', '法']","['#/entry/zhko/ac59307bfd644b679fbe16bd6675fa0a', '#/entry/zhko/9f5bf388a498482e98b94a43fef10281', '#/entry/zhko/482a39729d12423b89a114042112350a', '#/entry/zhko/22609335f00742358b45cbea811d47d6']",1.온갖 방법을 생각하다   2.갖은 방법을 다하다
+277,担任,['[ dānrèn ]'],"['担', '任']","['#/entry/zhko/613770ab831c4d80983d4edb253471ad', '#/entry/zhko/33e1c317b5884945968a2eff07f8d28a']",1.맡다   2.담임하다   3.담당하다
+278,敌视,['[ díshì ]'],"['敌', '视']","['#/entry/zhko/6c3a503bd59548e3a5cae9e101ea0dce', '#/entry/zhko/b23f6d4c4f6447769cc49087276701f6']",1.적대시하다   2.적대하다
+279,不过,['[ búguò ]'],"['不', '过']","['#/entry/zhko/8f5c09bedf324bc49d1b4f4e590ff8e8', '#/entry/zhko/5536d41f42d24ab9a5d3024babd1ff9e']",1.…에 지나지 않다   2.…에 불과하다   3.그런데   4.그러나
+280,商店,['[ shāngdiàn ]'],"['商', '店']","['#/entry/zhko/3a76b14e4b1b4d90b700494a4df605d5', '#/entry/zhko/05e522ba3e1e4efb874cd71f343e4165']",
+281,遇到,['[ yù//dào ]'],"['遇', '到']","['#/entry/zhko/be3044ac0a6245d2a1d5b0c87b6beeec', '#/entry/zhko/764641fe060d415480e9a70505cf058b']",1.만나다   2.마주치다
+282,视线,['[ shìxiàn ]'],"['视', '线']","['#/entry/zhko/b23f6d4c4f6447769cc49087276701f6', '#/entry/zhko/e608310c9042495f98a8da0aec447f34']",1.시선   2.눈길   3.주의력
+283,名誉,['[ míngyù ]'],"['名', '誉']","['#/entry/zhko/8de683efdccc42c48bab335061bd9e2b', '#/entry/zhko/362d6646b0ff4b1e8e3f25a40ff29f15']",1.평판   2.명성   3.명예   4.명의상
+284,任意,['[ rènyì ]'],"['任', '意']","['#/entry/zhko/33e1c317b5884945968a2eff07f8d28a', '#/entry/zhko/00087d1e231a40dbbfb2843b5f0b9867']",1.제멋대로   2.임의대로   3.임의
+285,永恒,['[ yǒnghéng ]'],"['永', '恒']","['#/entry/zhko/c11991fa4150492cab5efa81eb925a4b', '#/entry/zhko/f7a1bd9a351d4e3d895c53f9a510a0a8']",1.영원히 변하지 않다   2.영원하다   3.항구하다
+286,危险,['[ wēixiǎn ]'],"['危', '险']","['#/entry/zhko/ee2f6a103e2e47249e3f912300141c4e', '#/entry/zhko/facfc70fe11b4653a308aeb715ed401f']",
+287,名牌,['[ míngpái ]'],"['名', '牌']","['#/entry/zhko/8de683efdccc42c48bab335061bd9e2b', '#/entry/zhko/c66dd1a82f0d424c8b7571fc6c340e5d']",1.유명 상표   2.명패   3.铭牌
+288,招标,['[ zhāo//biāo ]'],"['招', '标']","['#/entry/zhko/56c67d86566749759561544b28586ee8', '#/entry/zhko/2cc6974af5ec46f38ed7dc1fb4e3589e']",1.입찰 공고를 하다   2.청부 입찰자를 모집하다
