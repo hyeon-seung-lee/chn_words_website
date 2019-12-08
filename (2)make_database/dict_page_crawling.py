@@ -107,9 +107,9 @@ class Get_chndic_data:
 # x = get_letter_relation('#/entry/zhko/0cb25d23fd4c4afe9b4cd5a22ccad8ca')
 hsk_words_link = pd.read_csv('../csv/hsk_words_link6.csv', encoding='UTF-8')
 # print(hsk_words_link.iloc[:,1])
-for index in range(1334, 2810, 295):
+for index in range(2745, 3099, 118):  # 1761
     get_data_list = []
-    for link in hsk_words_link.iloc[index:index+295, 1]:
+    for link in hsk_words_link.iloc[index:index+102, 1]:
         while True:
             try:
                 get_data = Get_chndic_data(link)

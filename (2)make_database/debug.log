@@ -1,2 +1,4 @@
 [1206/090225.406:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Users\LVSTA\AppData\Local\Temp\scoped_dir11616_1217595446\Crashpad: 장치 하드웨어 오류로 인해 요청이 실패했습니다. (0x1E3)
 [1206/090225.468:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: 파이프가 끝났습니다. (0x6D)
+[1208/014911.437:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Users\LVSTA\AppData\Local\Temp\scoped_dir8460_1439372932\Crashpad: 장치 하드웨어 오류로 인해 요청이 실패했습니다. (0x1E3)
+[1208/014911.453:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: 파이프가 끝났습니다. (0x6D)
