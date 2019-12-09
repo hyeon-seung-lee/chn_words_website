@@ -17,8 +17,8 @@ class Get_chndic_data:
         :param link: https://zh.dict.naver.com/ 뒤에 들어갈 {letter_link}  주소
         :return: row 데이터
         """
-        driver = webdriver.Chrome("D:/dev/chromedriver.exe")  # 집에서 chromedriver 경로
-        # driver = webdriver.Chrome("C:/Users/user/Downloads/chromedriver.exe")  # 학원에서 chromedriver 경로
+        # driver = webdriver.Chrome("D:/dev/chromedriver.exe")  # 집에서 chromedriver 경로
+        driver = webdriver.Chrome("C:/Users/user/Downloads/chromedriver.exe")  # 학원에서 chromedriver 경로
         url = f'https://zh.dict.naver.com/{link}'
         driver.get(url)
         driver.minimize_window()
@@ -69,6 +69,7 @@ class Get_chndic_data:
 
     def to_dict_page(self):
         """
+
         get_data[2] 의 주소 데이터(검색 페이지)를 모두 (글자 페이지) 주소로 변환
         """
         data_list = []
@@ -107,17 +108,18 @@ class Get_chndic_data:
 # x = get_letter_relation('#/entry/zhko/0cb25d23fd4c4afe9b4cd5a22ccad8ca')
 hsk_words_link = pd.read_csv('../csv/hsk_words_link6.csv', encoding='UTF-8')
 # print(hsk_words_link.iloc[:,1])
-for index in range(2745, 3099, 118):  # 1761
-    get_data_list = []
-    for link in hsk_words_link.iloc[index:index+102, 1]:
-        while True:
-            try:
-                get_data = Get_chndic_data(link)
-                get_data_list.append(get_data.to_dict_page())
-                df = pd.DataFrame(get_data_list)
-                print(df.tail())
-                df.to_csv(f'../csv/hsk_words_dictionary{index}.csv')
-                break
-            except AttributeError:
-                print('try again')
-                continue
+# for index in range(3083, 3100, 17):
+get_data_list = []
+for link in hsk_words_link.iloc[3083:, 1]:
+    while True:
+        try:
+            get_data = Get_chndic_data(link)
+            get_data_list.append(get_data.to_dict_page())
+            df = pd.DataFrame(get_data_list)
+            print(df.tail())
+            # df.to_csv(f'../csv/hsk_words_dictionary{index}.csv')
+            df.to_csv(f'../csv/hsk_words_dictionary3083.csv')
+            break
+        except AttributeError:
+            print('try again')
+            continue

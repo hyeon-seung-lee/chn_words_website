@@ -10,5 +10,5 @@
 
 # text = 'HSK1급단어'
 # print(text.find('1급'))
-for index in range(2491, 3099, 101):
+for index in range(0, 713, 100):
     print(index)
