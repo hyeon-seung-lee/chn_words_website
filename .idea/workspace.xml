@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee40ef7-e7c1-4dc1-9193-9cae78fc5c72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/(2)make_database/file_integration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary119.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary169.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary219.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary269.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary319.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary336.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary386.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary436.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary486.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary536.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary559.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary609.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary659.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary709.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/(2)make_database/letter_page_crawling.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/letter_page_crawling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/(2)make_database/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/chn_words_website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chn_words_website.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/crwl_in_jobkorea.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
