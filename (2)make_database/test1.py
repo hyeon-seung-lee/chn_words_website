@@ -10,5 +10,17 @@
 
 # text = 'HSK1급단어'
 # print(text.find('1급'))
-for index in range(0, 713, 100):
-    print(index)
+# for index in range(0, 713, 100):
+#     print(index)
+import os
+
+import pandas as pd
+
+folder_path = os.path.join('..', 'csv', 'letters_dictionary0.csv')
+df = pd.read_csv(folder_path, encoding='UTF-8')
+df = df.iloc[:, 1]
+print(df)
+for row in range(len(df)-1):
+    if df.iloc[row].item==df.iloc[row+1].item:
+        pass
+

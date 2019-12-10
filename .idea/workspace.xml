@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8aee95b-ed05-4acf-b442-dd199429a212" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/(1)web_crawl_self/file_integration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/(1)web_crawl_self/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/(2)make_database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/(2)make_database/letters_crawling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/(2)make_database/make_letters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/(2)make_database/make_words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/(2)make_database/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/total_hsk_words.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/make_database_function.py" afterDir="false" />
+    <list default="true" id="6ee40ef7-e7c1-4dc1-9193-9cae78fc5c72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/(2)make_database/file_integration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary119.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary169.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary219.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary269.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary319.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary336.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary386.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary436.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary486.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary536.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary559.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary609.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary659.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/letters_dictionary709.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/(2)make_database/letter_page_crawling.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/letter_page_crawling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/(2)make_database/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/chn_words_website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chn_words_website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/dic_link.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/dic_link.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/csv_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/csv_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/divide_link.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/divide_link.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/file_integration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/hanyu_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/hanyu_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/hsk_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/hsk_words.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/hsk_words_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/hsk_words_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/test2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/to_character_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/to_character_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_self/to_chracter_page_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/(1)web_crawl_self/to_chracter_page_test.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,35 +38,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1UPQIYAkxpkvLqeTTiQs2pJ0Zj5" />
+  <component name="ProjectId" id="1Ulms1MTOlUMM7AwWdTgUH973eo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab-python" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\dev\chn_words_website\csv" />
-      <recent name="C:\dev\chn_words_website\data" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.hsk_words">
+  <component name="RunManager" selected="Python.test1">
     <configuration name="file_integration" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chn_words_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,11 +61,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_crawl_self" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/(2)make_database" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_crawl_self/file_integration.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(2)make_database/file_integration.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hsk_words" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="letter_page_crawling" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chn_words_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,53 +82,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/(1)web_crawl_self" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/(2)make_database" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(1)web_crawl_self/hsk_words.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="make_database_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="chn_words_website" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/function" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/function/make_database_function.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="make_letters" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="chn_words_website" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/make_database" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_database/make_letters.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(2)make_database/letter_page_crawling.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/make_database" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/(2)make_database" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_database/test1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(2)make_database/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,41 +118,64 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hsk_words" />
-        <item itemvalue="Python.make_database_function" />
-        <item itemvalue="Python.make_letters" />
         <item itemvalue="Python.test1" />
         <item itemvalue="Python.file_integration" />
+        <item itemvalue="Python.letter_page_crawling" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b8aee95b-ed05-4acf-b442-dd199429a212" name="Default Changelist" comment="" />
-      <created>1575255670560</created>
+      <changelist id="6ee40ef7-e7c1-4dc1-9193-9cae78fc5c72" name="Default Changelist" comment="" />
+      <created>1575939758815</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575255670560</updated>
+      <updated>1575939758815</updated>
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1364" height="267" key="GridCell.Tab.0.bottom" timestamp="1575959954242">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1364" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1575959954242" />
+    <state width="1364" height="267" key="GridCell.Tab.0.center" timestamp="1575959954242">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1364" height="267" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1575959954242" />
+    <state width="1364" height="267" key="GridCell.Tab.0.left" timestamp="1575959954242">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1364" height="267" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1575959954242" />
+    <state width="1364" height="267" key="GridCell.Tab.0.right" timestamp="1575959954242">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1364" height="267" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1575959954242" />
+    <state x="361" y="168" key="SettingsEditor" timestamp="1575940257377">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="361" y="168" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1575940257377" />
+    <state x="552" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1575956283790">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="552" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1575956283790" />
   </component>
 </project>

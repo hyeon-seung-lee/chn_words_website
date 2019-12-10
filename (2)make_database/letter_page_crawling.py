@@ -17,8 +17,14 @@ class Get_chndic_data:
         :param link: https://zh.dict.naver.com/ 뒤에 들어갈 {letter_link}  주소
         :return: row 데이터
         """
-        # driver = webdriver.Chrome("D:/dev/chromedriver.exe")  # 집에서 chromedriver 경로
-        driver = webdriver.Chrome("C:/Users/user/Downloads/chromedriver.exe")  # 학원에서 chromedriver 경로
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.add_argument('headless')
+        chrome_options.add_argument('window-size=1920x1080')
+        chrome_options.add_argument("disable-gpu")
+        # https://beomi.github.io/2017/09/28/HowToMakeWebCrawler-Headless-Chrome/
+
+        # driver = webdriver.Chrome("D:/dev/chromedriver.exe", chrome_options=chrome_options)  # 집에서 chromedriver 경로
+        driver = webdriver.Chrome("C:/Users/user/Downloads/chromedriver.exe", chrome_options=chrome_options)  # 학원에서 chromedriver 경로
         url = f'https://zh.dict.naver.com/{link}'
         driver.get(url)
         driver.minimize_window()
@@ -49,7 +55,7 @@ class Get_chndic_data:
 # x = get_letter_relation('#/entry/zhko/0cb25d23fd4c4afe9b4cd5a22ccad8ca')
 hsk_letters_link = pd.read_csv('../csv/merged_df.csv', encoding='UTF-8')
 # print(hsk_words_link.iloc[:,1])
-for index in range(118, 713, 50):
+for index in range(609, 713, 50):
     get_data_list = []
     letter_index = index
     for link in hsk_letters_link.iloc[index:index + 50, 2]:
@@ -66,7 +72,7 @@ for index in range(118, 713, 50):
                 break
             except AttributeError:
                 print('try again')
-                if try_number < 5:
+                if try_number < 10:
                     try_number += 1
                     continue
                 else:
