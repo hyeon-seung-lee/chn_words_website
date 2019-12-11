@@ -2,9 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee40ef7-e7c1-4dc1-9193-9cae78fc5c72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out_of_class/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/crwl_in_jobkorea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$File.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/PKG-00.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/crwl_in_jobkorea.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/warn-crwl_in_jobkorea.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/xref-crwl_in_jobkorea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crwl_in_jobkorea.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/crwl_in_jobkorea.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/PKG-00.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/Tree-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/Tree-01.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/crwl_in_jobkorea.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/warn-crwl_in_jobkorea.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/xref-crwl_in_jobkorea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/crwl_in_jobkorea.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/dist/crwl_in_jobkorea.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/job_korea_머신 러닝+12+11+16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/job_korea_머신 러닝+12월+11일+16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/job_korea_머신 러닝+12월+11일+17.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out_of_class/crwl_in_jobkorea.py" beforeDir="false" afterPath="$PROJECT_DIR$/out_of_class/crwl_in_jobkorea.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +62,30 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
-  <component name="RunManager" selected="Python.test1">
+  <component name="RunManager" selected="Python.crwl_in_jobkorea">
+    <configuration name="crwl_in_jobkorea" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chn_words_website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/out_of_class" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/out_of_class/crwl_in_jobkorea.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="file_integration" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chn_words_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,6 +151,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.crwl_in_jobkorea" />
         <item itemvalue="Python.test1" />
         <item itemvalue="Python.file_integration" />
         <item itemvalue="Python.letter_page_crawling" />
@@ -136,29 +187,41 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1364" height="267" key="GridCell.Tab.0.bottom" timestamp="1575959954242">
+    <state x="639" y="231" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1576044060722">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1364" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1575959954242" />
-    <state width="1364" height="267" key="GridCell.Tab.0.center" timestamp="1575959954242">
+    <state x="639" y="231" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1576044060722" />
+    <state x="627" y="355" width="465" height="489" key="#com.intellij.tools.ToolEditorDialog" timestamp="1576044317804">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1364" height="267" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1575959954242" />
-    <state width="1364" height="267" key="GridCell.Tab.0.left" timestamp="1575959954242">
+    <state x="627" y="355" width="465" height="489" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1576044317804" />
+    <state x="639" y="281" key="FileChooserDialogImpl" timestamp="1576043734723">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1364" height="267" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1575959954242" />
-    <state width="1364" height="267" key="GridCell.Tab.0.right" timestamp="1575959954242">
+    <state x="639" y="281" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1576043734723" />
+    <state width="1877" height="393" key="GridCell.Tab.0.bottom" timestamp="1576052695364">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1364" height="267" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1575959954242" />
-    <state x="361" y="168" key="SettingsEditor" timestamp="1575940257377">
+    <state width="1877" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1576052695364" />
+    <state width="1877" height="393" key="GridCell.Tab.0.center" timestamp="1576052695364">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="361" y="168" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1575940257377" />
-    <state x="552" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1575956283790">
+    <state width="1877" height="393" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1576052695364" />
+    <state width="1877" height="393" key="GridCell.Tab.0.left" timestamp="1576052695364">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="552" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1575956283790" />
+    <state width="1877" height="393" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1576052695364" />
+    <state width="1877" height="393" key="GridCell.Tab.0.right" timestamp="1576052695364">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="393" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1576052695364" />
+    <state x="361" y="168" key="SettingsEditor" timestamp="1576044318711">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="361" y="168" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1576044318711" />
+    <state x="552" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1576025889067">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="552" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1576025889067" />
   </component>
 </project>
