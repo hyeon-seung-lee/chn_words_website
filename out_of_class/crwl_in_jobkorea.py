@@ -82,6 +82,7 @@ class job_korea_search():
         self.result_list.to_csv(save_name, encoding='UTF-8-sig', header=column_names)
 
 
+
 if __name__ == '__main__':
     keyword = input('검색어를 입력하세요: ')
     job_korea_search(keyword)

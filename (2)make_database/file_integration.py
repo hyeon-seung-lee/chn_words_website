@@ -4,7 +4,7 @@ from os import listdir
 from os.path import isfile, join
 
 
-def file_list(path, name=False):
+def file_list(path, name=False):  # 파일명 리스트를 가져옴
     files = [f for f in listdir(path) if isfile(join(path, f))]
     if name:
         files = [x for x in files if x.find(name) != -1]
@@ -20,7 +20,7 @@ csv_file_list = file_list(folder_path, name='letters_dictionary')
 letters_dictionary = []
 for file_name in csv_file_list:
     df = pd.read_csv(f'../csv/{file_name}', encoding='UTF-8')
-    letters_dictionary.append(df.iloc[:,1])
+    letters_dictionary.append(df.iloc[:, 1])
 print(letters_dictionary)  # 리스트의 요소가 DataFrame Class의 Series객체임
 
 integrate_dic = []

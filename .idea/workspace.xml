@@ -2,38 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee40ef7-e7c1-4dc1-9193-9cae78fc5c72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/$File.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/Analysis-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/EXE-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/PKG-00.pkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/PKG-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/PYZ-00.pyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/PYZ-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/base_library.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/crwl_in_jobkorea.exe.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/warn-crwl_in_jobkorea.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/crwl_in_jobkorea/xref-crwl_in_jobkorea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crwl_in_jobkorea.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/crwl_in_jobkorea.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/Analysis-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/EXE-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/PKG-00.pkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/PKG-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/PYZ-00.pyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/PYZ-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/Tree-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/Tree-01.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/base_library.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/crwl_in_jobkorea.exe.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/warn-crwl_in_jobkorea.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/build/crwl_in_jobkorea/xref-crwl_in_jobkorea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/crwl_in_jobkorea.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/dist/crwl_in_jobkorea.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/job_korea_머신 러닝+12+11+16.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/job_korea_머신 러닝+12월+11일+16.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/job_korea_머신 러닝+12월+11일+17.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/(2)make_database/file_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/file_integration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/crwl_in_jobkorea.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out_of_class/crwl_in_jobkorea.py" beforeDir="false" afterPath="$PROJECT_DIR$/out_of_class/crwl_in_jobkorea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out_of_class/dist/crwl_in_jobkorea.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,9 +192,9 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="361" y="168" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1576044318711" />
-    <state x="552" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1576025889067">
+    <state x="552" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1576111263015">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="552" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1576025889067" />
+    <state x="552" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1576111263015" />
   </component>
 </project>
