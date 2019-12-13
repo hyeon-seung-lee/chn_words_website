@@ -23,8 +23,9 @@ class Get_chndic_data:
         chrome_options.add_argument("disable-gpu")
         # https://beomi.github.io/2017/09/28/HowToMakeWebCrawler-Headless-Chrome/
 
-        # driver = webdriver.Chrome("D:/dev/chromedriver.exe", chrome_options=chrome_options)  # 집에서 chromedriver 경로
-        driver = webdriver.Chrome("C:/Users/user/Downloads/chromedriver.exe", chrome_options=chrome_options)  # 학원에서 chromedriver 경로
+        driver = webdriver.Chrome("D:/dev/chromedriver.exe", chrome_options=chrome_options)  # 집에서 chromedriver 경로
+        # driver = webdriver.Chrome("C:/Users/user/Downloads/chromedriver.exe", chrome_options=chrome_options)
+        # 학원에서 chromedriver 경로
         url = f'https://zh.dict.naver.com/{link}'
         driver.get(url)
         driver.minimize_window()
