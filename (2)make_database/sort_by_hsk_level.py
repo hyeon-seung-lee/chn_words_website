@@ -52,4 +52,4 @@ for i in related_hsk_words:
         pass
 print(hsk_words_list['6급'])
 
-df_hsk_words=pd.DataFrame(hsk_words_list.items()).to_csv('../csv/hsk_words_link5.csv')
+df_hsk_words=pd.DataFrame(hsk_words_list.items()).to_csv('../csv/hsk_words_sorted_by_level.csv')

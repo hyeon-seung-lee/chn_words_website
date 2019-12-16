@@ -22,8 +22,8 @@ def get_csv_list(csv_file_list):
     """csv file list를 받아서 읽어 df로 전환 뒤 리스트에 저장해 return"""
     letters_dictionary = []
     for file_name in csv_file_list:
-        df = pd.read_csv(f'../csv/{file_name}', encoding='UTF-8')
-        letters_dictionary.append(df.iloc[:, 1])
+        df = pd.read_csv(f'../csv/{file_name}', encoding='UTF-8' )
+        letters_dictionary.append(df.iloc[:,1:])
     # print(letters_dictionary[0].duplicated().iloc[10:15])
     return letters_dictionary
 
@@ -48,7 +48,17 @@ def read_two_lines(p_dict):
 
 
 folder_path = os.path.join('..', 'csv')
-csv_file_list = file_list(folder_path, name='letters_dictionary')
+csv_file_list = file_list(folder_path, name='hsk_words_dictionary')
+df_list = get_csv_list(csv_file_list)
+integrated_df = df_list[0]
+print('len(df_list):',len(df_list))
+for i in range(1,len(df_list)):
+    integrated_df = pd.concat([integrated_df, df_list[i]], axis=0)
+
+print(integrated_df)
+integrated_df.to_excel('../excel/integrated_hsk_words_dict.xlsx')
+# print(integrated_file)
+
 # print(csv_file_list)
 
 

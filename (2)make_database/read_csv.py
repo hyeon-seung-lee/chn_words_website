@@ -4,7 +4,7 @@ def split_str(row):
     inst_list_ = row.replace("\'", '').replace(' ', '').replace('[', '').replace(']', '').split(',')
     return inst_list_
 
-hsk_words_link=pd.read_csv('../csv/hsk_words_link5.csv', encoding='UTF-8')
+hsk_words_link=pd.read_csv('../csv/hsk_words_sorted_by_level.csv', encoding='UTF-8')
 # print(hsk_words_link.iloc[:,2])
 
 link_list=[]
@@ -20,4 +20,4 @@ print(len(set(list_list)))
 hsk_words_link = set(list_list)
 df_words_list = pd.DataFrame(hsk_words_link)
 print(df_words_list)
-df_words_list.to_csv('../csv/hsk_words_link6.csv', encoding='UTF-8')
+df_words_list.to_csv('../csv/hsk_words_listed.csv', encoding='UTF-8')
