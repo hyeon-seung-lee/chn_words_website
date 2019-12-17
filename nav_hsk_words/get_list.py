@@ -1,39 +1,16 @@
-# import pandas as pd
-# data = {'name': ['Jason', 'Molly', 'Tina', 'Jake', 'Amy'],
-#         'year': [2012, 2012, 2013, 2014, 2014],
-#         'reports': [4, 24, 31, 2, 3],
-#         'coverage': [25, 94, 57, 62, 70]}
-#
-# df0 = pd.DataFrame(data, index=['Cochice', 'Pima', 'Santa Cruz', 'Maricopa', 'Yuma'])
-# print(df0)
-#
-
-# text = 'HSK1급단어'
-# print(text.find('1급'))
-# for index in range(0, 713, 100):
-#     print(index)
-import os
-
-import pandas as pd
-
-# folder_path = os.path.join('..', 'csv', 'letters_dictionary0.csv')
-# df = pd.read_csv(folder_path, encoding='UTF-8')
-# df = df.iloc[:, 1]
-# print(df)
-# for row in range(len(df)-1):
-#     if df.iloc[row].item==df.iloc[row+1].item:
-#         pass
-
-
-# list = [1, 2, 3, 4]
-# print(list)
-# list[0] = 3
-# print(list)
+""" 1: 8
+    2: 8
+    3: 16
+    4: 30
+    5: 65
+    6: 125
+    """
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import pandas as pd
 
-def BTS(level, page):
+
+def beautiful_soup(level, page):
     url = f'https://zh.dict.naver.com/CnEntry.nhn?m=hskInfo&hskParam={level}&parts=-1&sortByLetter=ALL&' \
           f'pageNo={page}&fromOldVer'
     chrome_options = webdriver.ChromeOptions()
@@ -55,19 +32,47 @@ def BTS(level, page):
         .find('tbody').find_all('tr')
     # print(entry_list)
 
-    hsk_word=[]
+    hsk_word = []
     for tr in entry_list:
         letter = tr.find('div', class_='w_baseInfo').find('a').text
         letter_link = tr.find('div', class_='w_baseInfo').find('a').get('href')
         pronun = tr.find('span', class_='e_12_a').text
         meaning = tr.find_all('td')[2].text
         level = tr.find_all('td')[3].text
-        # print(letter, letter_link, pronun, meaning, level)
-        temp=[letter, letter_link, pronun, meaning, level]
-        print(temp)
+        print(letter, letter_link, pronun, meaning, level)
+        temp = [letter, letter_link, pronun, meaning, level]
         hsk_word.append(temp)
     return hsk_word
 
-if __name__ == '__main__':
 
-    BTS(3, 1)
+level_page = {1: 8,
+              2: 8,
+              3: 16,
+              4: 30,
+              5: 65,
+              6: 125}
+level_page= [8, 8, 16, 30, 65, 125]
+
+get_data_list = []
+error_list = []
+# level = 3  # 크롤링할 hsk 레벨  ===================
+# page = level_page[level-1]  # hsk level에 따른 페이지 수
+for level in range(1, 7):
+    page = level_page[level - 1]
+    for i in range(page):
+        try_number = 0
+        while True:
+            try:
+                temp_list = beautiful_soup(level, i+1)
+                get_data_list.append(temp_list)
+                df = pd.DataFrame(get_data_list)
+                df.to_csv(f'../csv/nav_level{level}.csv')
+                break
+            except AttributeError:
+                if try_number < 10:
+                    try_number += 1
+                    continue
+                else:
+                    error_list.append(f'level:{level}, page:{page}')
+                    pd.DataFrame(error_list).to_csv(f'../csv/error_nav_level{level}.csv')
+                    break

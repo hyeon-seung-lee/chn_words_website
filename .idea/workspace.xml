@@ -2,36 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee40ef7-e7c1-4dc1-9193-9cae78fc5c72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/(2)make_database/find_null_rows.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/(2)make_database/merge_df.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/(2)make_database/revise_letters_dic_comb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/(2)make_database/words_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_list0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_list1000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/letters_list500.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/integrated_hsk_words_dict.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/letters_dictionary_revised.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/merged_letters.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/null_letter_list.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out_of_class/job_korea_딥러닝 파이썬+12월+16일+10.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/(2)make_database/dict_page_crawling.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/dict_page_crawling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/letters_list3000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/nav_level6.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/hsk_words_list_3100.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/merged_words.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/nav_dict_list.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nav_hsk_words/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nav_hsk_words/get_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nav_hsk_words/rearrange_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nav_hsk_words/rearrange_word_length.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/(2)make_database/file_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/file_integration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/(2)make_database/read_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/read_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/(2)make_database/sort_by_hsk_level.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/sort_by_hsk_level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/chn_words_website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chn_words_website.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/(2)make_database/merge_df.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/merge_df.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/(2)make_database/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/(2)make_database/words_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/words_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/hsk_words_dictionary2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/hsk_words_dictionary0002.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/hsk_words_dictionary3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/hsk_words_dictionary0003.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/hsk_words_dictionary4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/hsk_words_dictionary0004.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/hsk_words_link5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/hsk_words_sorted_by_level.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/hsk_words_link6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/hsk_words_listed.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/letters_dictionary_combined.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/merged_df.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/excel/merged_df.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out_of_class/job_korea_머신 러닝+12+11+16.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out_of_class/job_korea_머신 러닝+12월+11일+16.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out_of_class/job_korea_머신 러닝+12월+11일+17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/letters_list1500.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/letters_list1500.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +48,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.words_list">
-    <configuration name="crwl_in_jobkorea" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.rearrange_word_length">
+    <configuration name="get_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chn_words_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,32 +57,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/out_of_class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nav_hsk_words" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/out_of_class/crwl_in_jobkorea.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="file_integration" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="chn_words_website" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/(2)make_database" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(2)make_database/file_integration.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nav_hsk_words/get_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="revise_letters_dic_comb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rearrange_dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chn_words_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/(2)make_database" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nav_hsk_words" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(2)make_database/revise_letters_dic_comb.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nav_hsk_words/rearrange_dict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +112,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="words_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rearrange_word_length" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chn_words_website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nav_hsk_words" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nav_hsk_words/rearrange_word_length.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chn_words_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,7 +145,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(2)make_database/words_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(2)make_database/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.words_list" />
+        <item itemvalue="Python.rearrange_word_length" />
+        <item itemvalue="Python.rearrange_dict" />
+        <item itemvalue="Python.get_list" />
+        <item itemvalue="Python.test1" />
         <item itemvalue="Python.merge_df" />
-        <item itemvalue="Python.revise_letters_dic_comb" />
-        <item itemvalue="Python.file_integration" />
-        <item itemvalue="Python.crwl_in_jobkorea" />
       </list>
     </recent_temporary>
   </component>
@@ -220,29 +205,33 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="639" y="281" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1576043734723" />
-    <state width="1877" height="393" key="GridCell.Tab.0.bottom" timestamp="1576494657630">
+    <state width="1899" height="393" key="GridCell.Tab.0.bottom" timestamp="1576581137743">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1576494657630" />
-    <state width="1877" height="393" key="GridCell.Tab.0.center" timestamp="1576494657630">
+    <state width="1899" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1576581137743" />
+    <state width="1899" height="393" key="GridCell.Tab.0.center" timestamp="1576581137743">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1576494657630" />
-    <state width="1877" height="393" key="GridCell.Tab.0.left" timestamp="1576494657629">
+    <state width="1899" height="393" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1576581137743" />
+    <state width="1899" height="393" key="GridCell.Tab.0.left" timestamp="1576581137743">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1576494657629" />
-    <state width="1877" height="393" key="GridCell.Tab.0.right" timestamp="1576494657630">
+    <state width="1899" height="393" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1576581137743" />
+    <state width="1899" height="393" key="GridCell.Tab.0.right" timestamp="1576581137743">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1576494657630" />
-    <state x="361" y="168" key="SettingsEditor" timestamp="1576476142185">
+    <state width="1899" height="393" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1576581137743" />
+    <state x="361" y="168" key="SettingsEditor" timestamp="1576563597002">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="361" y="168" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1576476142185" />
+    <state x="361" y="168" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1576563597002" />
     <state x="552" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1576111263015">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="552" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1576111263015" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1576578728528">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1576578728528" />
   </component>
 </project>

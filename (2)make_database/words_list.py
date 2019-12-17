@@ -56,16 +56,15 @@ index = 500
 get_data_list = []
 
 ########################################## 파일명 변환 ##################################
-for lim in range(3,6):
-    for i in range(500*lim, 500*(lim+1)):
-        while True:
-            try:
-                get_data = Get_chndic_data(hsk_words_link[i])
-                get_data_list.append(get_data.find_letter_inf())
-                df = pd.DataFrame(get_data_list)
-                print(df.tail())
-                df.to_csv(f'../csv/letters_list{500*lim}.csv')
-                break
-            except AttributeError:
-                print('try again')
-                continue
+for i in range(3000, 3100):
+    while True:
+        try:
+            get_data = Get_chndic_data(hsk_words_link[i])
+            get_data_list.append(get_data.find_letter_inf())
+            df = pd.DataFrame(get_data_list)
+            print(df.tail())
+            df.to_csv(f'../csv/letters_list{3000}.csv')
+            break
+        except AttributeError:
+            print('try again')
+            continue

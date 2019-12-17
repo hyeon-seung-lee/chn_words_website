@@ -1,10 +1,8 @@
 import pandas as pd
 
-merged_df=pd.read_excel('../excel/merged_df.xlsx')
-letter_list=merged_df.iloc[:,:]
-letters_dict_df = pd.read_excel('../excel/letters_dictionary_revised.xlsx')
+informed_hsk_words=pd.read_excel('../excel/integrated_hsk_words_dict.xlsx')
+hsk_3100 = pd.read_excel('../excel/hsk_words_list_3100.xlsx')
 
-merge_letters=pd.merge(letter_list, letters_dict_df, how='left', on='letter')
-print(merge_letters)
+merge_words= pd.merge(hsk_3100, informed_hsk_words, how='left', on='words')
 
-merge_letters.to_excel('../excel/merged_letters.xlsx')
+merge_words.to_excel('../excel/merged_words.xlsx')

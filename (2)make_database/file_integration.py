@@ -48,7 +48,7 @@ def read_two_lines(p_dict):
 
 
 folder_path = os.path.join('..', 'csv')
-csv_file_list = file_list(folder_path, name='hsk_words_dictionary')
+csv_file_list = file_list(folder_path, name='letters_list')
 df_list = get_csv_list(csv_file_list)
 integrated_df = df_list[0]
 print('len(df_list):',len(df_list))
@@ -56,7 +56,7 @@ for i in range(1,len(df_list)):
     integrated_df = pd.concat([integrated_df, df_list[i]], axis=0)
 
 print(integrated_df)
-integrated_df.to_excel('../excel/integrated_hsk_words_dict.xlsx')
+integrated_df.to_excel('../excel/hsk_words_list_3100.xlsx', index=None, header=['word'])
 # print(integrated_file)
 
 # print(csv_file_list)
