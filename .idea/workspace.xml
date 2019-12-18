@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee40ef7-e7c1-4dc1-9193-9cae78fc5c72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/csv/letters_list3000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/nav_level6.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/hsk_words_list_3100.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/merged_words.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/nav_dict_list.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nav_hsk_words/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nav_hsk_words/get_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nav_hsk_words/rearrange_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nav_hsk_words/rearrange_word_length.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/(2)make_database/file_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/file_integration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/(2)make_database/merge_df.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/merge_df.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/(2)make_database/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/(2)make_database/words_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/(2)make_database/words_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/nav_list.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/letters_list1500.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/letters_list1500.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nav_hsk_words/rearrange_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/nav_hsk_words/rearrange_dict.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.rearrange_word_length">
+  <component name="RunManager" selected="Python.rearrange_dict">
     <configuration name="get_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chn_words_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,8 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rearrange_word_length" />
         <item itemvalue="Python.rearrange_dict" />
+        <item itemvalue="Python.rearrange_word_length" />
         <item itemvalue="Python.get_list" />
         <item itemvalue="Python.test1" />
         <item itemvalue="Python.merge_df" />
@@ -205,30 +193,30 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="639" y="281" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1576043734723" />
-    <state width="1899" height="393" key="GridCell.Tab.0.bottom" timestamp="1576581137743">
+    <state width="1899" height="393" key="GridCell.Tab.0.bottom" timestamp="1576660673311">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1576581137743" />
-    <state width="1899" height="393" key="GridCell.Tab.0.center" timestamp="1576581137743">
+    <state width="1899" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1576660673311" />
+    <state width="1899" height="393" key="GridCell.Tab.0.center" timestamp="1576660673311">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="393" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1576581137743" />
-    <state width="1899" height="393" key="GridCell.Tab.0.left" timestamp="1576581137743">
+    <state width="1899" height="393" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1576660673311" />
+    <state width="1899" height="393" key="GridCell.Tab.0.left" timestamp="1576660673311">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="393" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1576581137743" />
-    <state width="1899" height="393" key="GridCell.Tab.0.right" timestamp="1576581137743">
+    <state width="1899" height="393" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1576660673311" />
+    <state width="1899" height="393" key="GridCell.Tab.0.right" timestamp="1576660673311">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="393" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1576581137743" />
+    <state width="1899" height="393" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1576660673311" />
     <state x="361" y="168" key="SettingsEditor" timestamp="1576563597002">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="361" y="168" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1576563597002" />
-    <state x="552" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1576111263015">
+    <state x="552" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1576630003498">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="552" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1576111263015" />
+    <state x="552" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1576630003498" />
     <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1576578728528">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>

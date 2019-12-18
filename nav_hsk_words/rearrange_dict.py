@@ -17,5 +17,6 @@ for i in range(252):
         word_list.append(word)
 
 words_list = pd.DataFrame(word_list).iloc[:, :-2]
-words_list.to_excel('../excel/nav_dict_list.xlsx')
+# words_list.to_excel('../excel/nav_dict_list.xlsx')
+words_list.to_csv('../csv/nav_list.csv')
 print(words_list.iloc[1, :])
