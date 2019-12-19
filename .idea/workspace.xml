@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee40ef7-e7c1-4dc1-9193-9cae78fc5c72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/csv/nav_list.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/nav_arranged.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/nav_final.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/rel_retter.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/rel_retter2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nav_hsk_words/edit_length_1_words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nav_hsk_words/make_rel_index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nav_hsk_words/read_rel_col.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nav_hsk_words/rearrange_by_level.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out_of_class/codingtest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nav_hsk_words/rearrange_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/nav_hsk_words/rearrange_dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/nav_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/nav_list.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel/nav_dict_list.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nav_hsk_words/rearrange_word_length.py" beforeDir="false" afterPath="$PROJECT_DIR$/nav_hsk_words/rearrange_word_length.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +46,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.rearrange_dict">
-    <configuration name="get_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="codingtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chn_words_website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/out_of_class" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/out_of_class/codingtest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="make_rel_index" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chn_words_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,7 +80,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nav_hsk_words/get_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nav_hsk_words/make_rel_index.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -58,28 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="merge_df" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="chn_words_website" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/(2)make_database" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(2)make_database/merge_df.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rearrange_dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rearrange_by_level" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chn_words_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,7 +101,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nav_hsk_words/rearrange_dict.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nav_hsk_words/rearrange_by_level.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chn_words_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/(2)make_database" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nav_hsk_words" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(2)make_database/test1.py" />
+      <option name="SCRIPT_NAME" value="C:\dev\chn_words_website\nav_hsk_words\read_rel_col.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rearrange_dict" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.make_rel_index" />
+        <item itemvalue="Python.rearrange_by_level" />
         <item itemvalue="Python.rearrange_word_length" />
-        <item itemvalue="Python.get_list" />
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.merge_df" />
+        <item itemvalue="Python.codingtest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,33 +203,33 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="639" y="281" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1576043734723" />
-    <state width="1899" height="393" key="GridCell.Tab.0.bottom" timestamp="1576660673311">
+    <state width="1364" height="393" key="GridCell.Tab.0.bottom" timestamp="1576753175052">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1576660673311" />
-    <state width="1899" height="393" key="GridCell.Tab.0.center" timestamp="1576660673311">
+    <state width="1364" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1576753175052" />
+    <state width="1364" height="393" key="GridCell.Tab.0.center" timestamp="1576753175052">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="393" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1576660673311" />
-    <state width="1899" height="393" key="GridCell.Tab.0.left" timestamp="1576660673311">
+    <state width="1364" height="393" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1576753175052" />
+    <state width="1364" height="393" key="GridCell.Tab.0.left" timestamp="1576753175052">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="393" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1576660673311" />
-    <state width="1899" height="393" key="GridCell.Tab.0.right" timestamp="1576660673311">
+    <state width="1364" height="393" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1576753175052" />
+    <state width="1364" height="393" key="GridCell.Tab.0.right" timestamp="1576753175052">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1899" height="393" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1576660673311" />
+    <state width="1364" height="393" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1576753175052" />
     <state x="361" y="168" key="SettingsEditor" timestamp="1576563597002">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="361" y="168" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1576563597002" />
-    <state x="552" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1576630003498">
+    <state x="552" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1576715747151">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="552" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1576630003498" />
-    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1576578728528">
+    <state x="552" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1576715747151" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1576752367184">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1576578728528" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1576752367184" />
   </component>
 </project>
