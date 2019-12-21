@@ -5,7 +5,7 @@ def split_str(row):
     inst_list_ = row.replace(' ', '').replace('[', '').replace(']', '').split(',')
     return inst_list_
 
-nav_list = pd.read_excel('../excel/rel_retter.xlsx', index_col='id')
+nav_list = pd.read_excel('../excel/rel_letter_1.xlsx', index_col='id')
 
 print(nav_list)
 print(nav_list.iloc[1])
